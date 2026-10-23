@@ -79,6 +79,7 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
   - seu **tempo total de jogo** no mundo
   - Ativa/desativa com **`/sb`** — sua escolha fica salva entre sessões.
 - **Embaixo do seu nome no tab:** um coração vermelho com sua vida ❤️
+- **Caras no chat** 👤 — mensagens e avisos de entrada/saída mostram a cabecinha 3D da skin de quem falou.
 
 ---
 
@@ -113,8 +114,13 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
 - **O dia demora mais** — as fases de dia se prolongam um pouco, e as noites passam mais rápido.
 - **Johnny está à solta** — uma pequena % dos vindicators aparecem como Johnny: eles nunca param de te perseguir 🪓
 - **Afogamento mais gentil** — você tem muito mais ar antes de começar a tomar dano na água.
-- **Cofres nas Cidades do End** — os cofres dos navios garantem elytra para mais de um jogador, então leve os amigos.
-- **Eventos sazonais** — fique atento a anúncios tipo caça aos ovos 🎃 **Halloween** (ovos espalhados pelo mapa, conquista ao completar e uma variação de Natal mais pra frente no ano).
+- **Cofres nas Cidades do End** — os cofres dos navios garantem elytra para mais de um jogador, então leve os amigos. *(o End fica trancado por enquanto 🔒 — sem rush!)*
+- **Pulo coletivo da noite** 🛏️ — deitar na cama à noite dispara a votação pra pular a noite (bossbar + sons no caminho); sair da cama desfaz seu voto. Metade dos jogadores votando = amanhecer animado ✨ e ninguém acorda com fantasma no dia seguinte. Tempestade também dá pra votar.
+- **Folhas caem rápido** 🍃 — árvore cortada, folhas decaem sozinhas em segundos — sem árvore-fantasma feia na paisagem (drops incluídos).
+- **Encantamento Escavador** ⛏️ — picaretas encantadas raspam um mini-túnel inteiro de minérios e pedra numa tacada. Tem na mesa de encantamentos.
+- **Compostagem turbinada** 🌱 — carne podre, peixes e afins agora funcionam no composter e viram bone meal.
+- **Tocha na mão ilumina** ✨ — segurando tochas/lanternas, o ambiente ao redor acende; guardou, apagou.
+- **Fogueiras curam** 🔥 — perto de uma fogueira acesa a vida regenera devagar (meia vida a cada 2s num raio de 3 blocos).
 
 ---
 
