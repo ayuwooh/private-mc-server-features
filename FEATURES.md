@@ -1,8 +1,5 @@
 # 🎮 Bem-vindo ao Servidor do ayuwooh — Guia do Jogador
 
-> **Conecte-se:** jogadores de **Java (PC)** e de **Bedrock (celular/console)** são bem-vindos — o endereço do servidor é informado no Discord/convite.
-> Somente jogadores da whitelist — chame o **ayuwooh** para te adicionar.
-
 Este é um servidor de sobrevivência com progressão customizada, um compêndio de lore e um monte de surpresas na jogabilidade. Aqui está tudo que você pode fazer.
 
 ---
