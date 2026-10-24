@@ -114,11 +114,11 @@ As dimensões do servidor abrem conforme sua **jornada de níveis** — o portal
 ## 🖥️ Você, na Tela
 
 - **Lista de players e nome sobre a cabeça:** seu nível entre colchetes — `[42] ayuwooh`.
-- **Scoreboard lateral** (aparece ao entrar):
-  - seu nickname
-  - `Nível: 42`
-  - uma **barra de progresso de XP** ao vivo com o **%** ao lado
-  - seu **tempo total de jogo** no mundo
+- **Dimensão no tab:** depois do nível, a inicial da dimensão entre colchetes e colorida — `[12] [O] ayuwooh`: **O** verde (Overworld), **N** vermelha (Nether), **E** roxa (End).
+- **Tab ordenado por nível** — do nível mais alto para o mais baixo; empates em ordem alfabética.
+- **Scoreboard lateral** (aparece ao entrar) — **alterna a cada 15s** entre dois painéis para não poluir a tela:
+  - **Painel de Progresso**: seu nickname, `Nível: 42`, uma **barra de progresso de XP** ao vivo com o **%** ao lado e seu **tempo total de jogo**
+  - **Painel de Habilidades**: Power Level no topo e o nível de cada habilidade (mineração, madeira, ervas, escavação, pesca, espadas, machados, arqueia, acrobática e doma)
   - Ativa/desativa com **`/sb`** — sua escolha fica salva entre sessões.
 - **Embaixo do seu nome no tab:** um coração vermelho com sua vida ❤️
 
@@ -172,6 +172,12 @@ As dimensões do servidor abrem conforme sua **jornada de níveis** — o portal
 - **Plantações crescem offline** 🌾 — as plantações continuam crescendo mesmo com o chunk descarregado e sem ninguém por perto.
 - **Pedreira expandida** 🪚 — a pedreira ganhou 500+ receitas: corte de qualquer peça da família da madeira (toras, tábuas, cercas, portas, placas…), receitas extras de pedra, reciclagem e "un-crafting".
 - **Receitas veganas** 🌿 — couro, penas, blocos de slime, canas de blaze, pólvora e mais são craftados com ingredientes veganos, sem sacrificar mobs passivos.
+- **Plantações a prova de pisão** 🌱 — pisotear a terra arada não a destrói mais; correr ou cair sobre a plantação é seguro.
+- **Placas com cor** 🪧 — placas aceitam códigos de cor `&` ao escrever nelas.
+- **Carrinhos guiáveis** 🛤️ — sentado em um carrinho de minério, dirija-o com W/A/S/D; ele sobe degraus de 1 bloco.
+- **Arco Infinito sem flechas** 🏹 — com o encantamento Infinito, dispare mesmo sem nenhuma flecha no inventário.
+- **Tesouras desarmam TNT** ✂️ — um golpe de tesoura na TNT acesa tem 50% de chance de desarmá-la.
+- **Mensagens de morte exclusivas** 💀 — certas mortes aparecem com frases próprias, como escorregar e cair nas próprias tesouras.
 
 ---
 
