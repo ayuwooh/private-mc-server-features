@@ -1,6 +1,6 @@
 # 🎮 Bem-vindo ao Servidor do ayuwooh — Guia do Jogador
 
-Este é um servidor de sobrevivência com progressão customizada, um compêndio de lore e um monte de surpresas na jogabilidade. Aqui está tudo que você pode fazer.
+Este é um servidor de sobrevivência com progressão personalizada, compêndio de lore e mecânicas adicionais na jogabilidade. Este guia lista tudo que está disponível.
 
 ---
 
@@ -8,20 +8,20 @@ Este é um servidor de sobrevivência com progressão customizada, um compêndio
 
 ### 1. Jornada de Níveis — suba até o nível 60
 
-Todo mundo está na **mesma jornada épica**: nível **1 → 60**, estilo WoW. Os primeiros níveis passam voando, e o final game é uma rampa longa e satisfatória.
+Todos os jogadores seguem a **mesma jornada**: nível **1 → 60**. Os primeiros níveis avançam rapidamente; os últimos exigem mais tempo.
 
 **Como você ganha XP de nível:**
-- Só de **jogar** (+XP a cada poucos minutos)
-- **Caçando monstros** — quanto maior o monstro, maior o pagamento:
+- **Jogar** (+XP a cada poucos minutos)
+- **Caçando monstros** — quanto maior o monstro, maior a recompensa:
   - Mobs comuns ≈ 2–5 XP
   - Warden 60–80 · Wither 40–50 · Guardião Ancestral 20–30 · Invocador 12–18
-  - **Dragão do Fim 80–100** — o pagamento máximo 💰
-- **Minerando** — minérios pagam extra:
+  - **Dragão do Fim 80–100** — a maior recompensa 💰
+- **Minerando** — minérios pagam XP extra:
   - Sucata Antiga 30–50 · Diamantes & Esmeraldas 15–25 · Obsidiana 15–25
-  - Ferro, ouro, redstone, quartzo, carvão, cobre, lapis-lazúli — pagamentos menores
-  - Terra, cascalho e pedregulho não pagam nada (nada de cavar a mesma cave 500 vezes)
+  - Ferro, ouro, redstone, quartzo, carvão, cobre, lapis-lazúli — valores menores
+  - Terra, cascalho e pedregulho não pagam XP
 
-**Recompensas por nível** (além de um mimo em *todo* nível de subida):
+**Recompensas por nível** (além de uma recompensa em *todo* nível de subida):
 
 | Nível | O que você recebe |
 |---|---|
@@ -36,35 +36,35 @@ Todo mundo está na **mesma jornada épica**: nível **1 → 60**, estilo WoW. O
 | 45 | 8× Maçã Dourada + 16× Lapis-lazúli |
 | 50 | 6× Diamante + **1× Totem da Imortalidade** + quinta **Crônica** 📖 — agora você é um *Veterano* |
 | 55 | 8× Diamante + 2× Carapaça de Shulker |
-| 60 | 10× Diamante + 8× Maçã Dourada + 4× Sucata de Netherite + última **Crônica** 📖 — NÍVEL MÁXIMO, comemorado no servidor inteiro 🎉 |
+| 60 | 10× Diamante + 8× Maçã Dourada + 4× Sucata de Netherite + última **Crônica** 📖 — nível máximo, com celebração global no servidor 🎉 |
 
 Consulte seu nível, ranking e progresso com **`/clv`**.
 
 ### 2. Codex — o compêndio de descobertas 📖
 
-Abra com **`/codex`** — é o seu livro personalizado de monstros e fauna, com lore de tudo que você descobriu.
+Abra com **`/codex`** — seu livro de monstros e fauna, com a lore de cada coisa que você descobriu.
 
-- **Mate alguma coisa** e vai aparecer o banner *"CODEX UPDATED"* na tela — a página de lore dele fica desbloqueada para sempre.
+- **Derrote um mob** e o banner *"CODEX UPDATED"* aparece na tela; a página de lore correspondente fica desbloqueada permanentemente.
 - 4 categorias:
-  - 🟣 **Monstros** (21) — tudo que te caça à noite
-  - 🟢 **Vida Selvagem** (21) — de vaquinhas a axolotls e abelhas
-  - 🔴 **Lendas & Monstruosidades** (7) — Dragão, Wither, Warden e mobs de lenda
+  - 🟣 **Monstros** (21) — inimigos hostis
+  - 🟢 **Vida Selvagem** (21) — animais passivos e criaturas dos biomas
+  - 🔴 **Lendas & Monstruosidades** (7) — Dragão, Wither, Warden e criaturas lendárias
   - 📜 **Crônicas** (6) — a história do próprio servidor, um capítulo desbloqueado a cada marco de nível (10/20/30/40/50/60)
-- Recompensas: **XP vanilla** por toda descoberta, e **bônus grandes** por completar uma categoria:
-  - Monstros e Vida Selvagem: descobertas individuais +100 XP, categoria completa +5000 XP
-  - Lendas: +1000 XP por boss, categoria completa +15000 XP **e um Totem**
-  - Crônicas: +300 XP por capítulo, todas as 6 = **64 garrafas de XP**
-- Entradas bloqueadas aparecem como `??` — misteriosas.
+- Recompensas: **XP vanilla** por descoberta e **bônus grandes** ao completar uma categoria:
+  - Monstros e Vida Selvagem: +100 XP por descoberta, +5000 XP por categoria completa
+  - Lendas: +1000 XP por boss, +15000 XP por categoria completa **e um Totem**
+  - Crônicas: +300 XP por capítulo, 64 garrafas de XP ao completar as 6
+- Entradas bloqueadas aparecem como `??` até serem desbloqueadas.
 
 > 💡 **Atenção:** neste servidor existem três contadores de XP — sua **barra verde de XP** (vanilla), os **níveis de habilidade do mcMMO** e o seu **nível 1–60 da jornada**. Eles não se misturam. As recompensas do Codex só enchem a barra verde.
 
-### 3. mcMMO — habilidades com superpoderes de verdade ⚔️
+### 3. mcMMO — sistema de habilidades ⚔️
 
-Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qualquer uma com **`/mcmmo`**, ou veja uma página específica tipo `/mining`, `/swords`, `/fishing`.
+Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qualquer uma com **`/mcmmo`**, ou uma página específica, como `/mining`, `/swords`, `/fishing`.
 
-- **Nível 300 é o máximo** em todas as habilidades — sem atalhos, só jogando mesmo.
-- Ritmo planejado: **Fishing** e as **habilidades de combate** sobem um pouco mais rápido, **Acrobatics** é um processo lento, e Mining/Woodcutting/Herbalism/Excavation ficam bem no meio.
-- **Repair e Salvage são desativados de propósito** — o reparo normal em bigorna funciona normalmente, as habilidades apenas não existem aqui.
+- **Nível 300 é o máximo** em todas as habilidades, alcançado apenas jogando (sem atalhos).
+- Ritmo planejado: **Fishing** e as **habilidades de combate** sobem um pouco mais rápido, **Acrobatics** é mais lenta, e Mining/Woodcutting/Herbalism/Excavation ficam no meio.
+- **Repair e Salvage estão desativados**: o reparo de itens funciona normalmente pela bigorna; essas duas habilidades não existem neste servidor.
 - Toda habilidade mostra a própria **barra de XP (bossbar)** conforme você evolui.
 
 ---
@@ -79,49 +79,61 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
   - seu **tempo total de jogo** no mundo
   - Ativa/desativa com **`/sb`** — sua escolha fica salva entre sessões.
 - **Embaixo do seu nome no tab:** um coração vermelho com sua vida ❤️
-- **Caras no chat** 👤 — mensagens e avisos de entrada/saída mostram a cabecinha 3D da skin de quem falou.
 
 ---
 
-## 🛋️ Comandos Divertidos
+## 🛋️ Comandos disponíveis
 
 | Comando | O que faz |
 |---|---|
 | `/sit` | senta em qualquer lugar (clicar com o direito em degraus/escadas também serve) |
-| `/lay` | deita e julga todo mundo |
-| `/legsup` | senta com as pernas pra cima |
+| `/lay` | deita no chão |
+| `/legsup` | senta com as pernas para cima |
 | `/bellyflop` | salto de barriga 🤸 |
 | `/spin` | gira no lugar |
 | `/crawl` | rasteja de barriga |
 | `/playtime` (`/pt`) | suas horas totais de jogo (e `/pt top` para o placar) |
-| `/skin` | `/skin set <nome>` ou `/skin url <link>` — skins de verdade num servidor offline! |
-| `/ping`, `/tps` | seu ping e a saúde do servidor |
+| `/skin` | `/skin set <nome>` ou `/skin url <link>` — troca de skin em servidor offline |
+| `/ping`, `/tps` | seu ping e o estado do servidor |
 | `/iv` | ativa/desativa os hologramas de itens nos blocos interativos |
+| `/tw` | menu de waystones — viaje entre waystones construídas por você ou que são públicas |
+| `/hug`, `/wave`, `/slap` | emotes do ChatFeelings — interações rápidas com outros jogadores |
+| `/sprays upload <link>`, `/spray` | envia uma imagem e espareja-a na parede |
 
 ---
 
 ## ✨ Recursos do Mundo
 
-- **Minera spawners com Toque Suave** ⛏️ — picareta de ferro ou melhor. Spawners de monstro agora são um espólio que você *guarda*, não destrói.
-- **Mineração em cadeia (Vein Miner)** — segure o botão de agachar quebrando com a ferramenta certa, e a veia inteira se quebra junto (picareta→minério, machado→madeira, pá→terra, enxada→planta).
-- **Monte os golfinhos** 🐬 — clique com o direito num golfinho e conduz-o. Só não se esqueça de voltar pra água depois…
+- **Minera spawners com Toque Suave** ⛏️ — picareta de ferro ou melhor. O spawner é coletado como item em vez de ser destruído.
+- **Mineração em cadeia (Vein Miner)** — quebre mantendo-se agachado com a ferramenta correta e a veia inteira quebra junto (picareta→minério, machado→madeira, pá→terra, enxada→planta).
+- **Cavalgar golfinhos** 🐬 — clique com o direito em um golfinho para montá-lo e conduzi-lo; ele precisa voltar à água.
 - **Compass bossbar** — segurando uma bússola aparece uma barra com a direção ao vivo.
-- **Totem relaxado** — um totem da imortalidade te salva estando em *qualquer parte* do inventário, não só na mão.
-- **Arte com beacons** — vidro tingido fica lindo e ainda **não bloqueia** os efeitos do beacon.
-- **Personalizações com bigorna** — dá pra usar códigos de cor `&` ao renomear itens. Faça seu loot parecer lendário.
-- **Coma até o fim** — dá um arroto quando a fome fica cheia 🫧
-- **Bolas de neve apagam fogo** — literalmente um extintor de emergência para fogueiras, velas e chamas.
+- **Totem da Imortalidade** — salva você com o item em *qualquer parte* do inventário, não apenas na mão.
+- **Beacons com vidro tingido** — vidro tingido não bloqueia os efeitos do beacon.
+- **Anvils sem "Muito Caro!"** 🛠️ — o limite de 40 níveis não existe mais: reparos e encantamentos caros continuam disponíveis, com o custo real de XP exibido e cobrado. Ao renomear, códigos de cor `&`, hex (`#55ffff`) e gradientes (`<gradient:red:gold>`) funcionam.
+- **Arroto ao encher a fome** 🫧 — comer até o máximo da fome causa um arroto.
+- **Bolas de neve apagam fogo** — apagam fogueiras, velas e chamas ao acertar.
 - **O dia demora mais** — as fases de dia se prolongam um pouco, e as noites passam mais rápido.
-- **Johnny está à solta** — uma pequena % dos vindicators aparecem como Johnny: eles nunca param de te perseguir 🪓
-- **Afogamento mais gentil** — você tem muito mais ar antes de começar a tomar dano na água.
-- **Cofres nas Cidades do End** — os cofres dos navios garantem elytra para mais de um jogador, então leve os amigos. *(o End fica trancado por enquanto 🔒 — sem rush!)*
-- **Pulo coletivo da noite** 🛏️ — deitar na cama à noite dispara a votação pra pular a noite (bossbar + sons no caminho); sair da cama desfaz seu voto. Metade dos jogadores votando = amanhecer animado ✨ e ninguém acorda com fantasma no dia seguinte. Tempestade também dá pra votar.
-- **Folhas caem rápido** 🍃 — árvore cortada, folhas decaem sozinhas em segundos — sem árvore-fantasma feia na paisagem (drops incluídos).
-- **Encantamento Escavador** ⛏️ — picaretas encantadas raspam um mini-túnel inteiro de minérios e pedra numa tacada. Tem na mesa de encantamentos.
-- **Compostagem turbinada** 🌱 — carne podre, peixes e afins agora funcionam no composter e viram bone meal.
-- **Tocha na mão ilumina** ✨ — segurando tochas/lanternas, o ambiente ao redor acende; guardou, apagou.
-- **Fogueiras curam** 🔥 — perto de uma fogueira acesa a vida regenera devagar (meia vida a cada 2s num raio de 3 blocos).
+- **Vindicators Johnny** — uma pequena % dos vindicators é chamada de Johnny e persegue o jogador continuamente 🪓.
+- **Mais tempo debaixo d'água** — a barra de ar é maior antes de o dano começar.
+- **Portal do Nether com nível 10** 🌋 — o portal do Nether só atende jogadores que alcançaram o nível 10 da jornada; ao tentar sem ele, aparece uma mensagem mostrando o nível necessário.
+- **Portal do End com nível 30** 🔮 — mesma regra: o nível 30 da jornada abre o portal do End.
+- **Cofres nas Cidades do End** — os cofres dos navios garantem elytra para mais de um jogador. *(O End abre no nível 30 🔮.)*
+- **Baú do End com 6 fileiras** 🧰 — o dobro de espaço no baú do End (6 fileiras em vez de 3).
+- **Votação de sono** 🛏️ — deitar na cama à noite inicia uma votação para pular a noite (bossbar com progresso e sons); sair da cama cancela o voto. Com metade dos jogadores votando, a madrugada é pulada com uma animação de amanhecer ✨. Tempestades também podem ser puladas por voto.
+- **Decaimento de folhas** 🍃 — ao cortar uma árvore, as folhas decaem sozinhas em segundos, mantendo a paisagem limpa (drops incluídos).
+- **Encantamento Escavador** ⛏️ — picaretas com esse encantamento quebram um túnel de minérios e pedra em uma única ação. Disponível na mesa de encantamentos.
+- **Luz dinâmica** ✨ — segurar tochas e lanternas ilumina o ambiente ao redor; ao guardar o item, a luz apaga.
+- **Fogueiras curam** 🔥 — ficar perto de uma fogueira acesa regenera vida lentamente (meia vida a cada 2 s, raio de 3 blocos).
+- **Waystones** 🪨 — construa uma waystone, dê um nome (`/tw setname <nome>`) e viaje pelo menu (`/tw openui`); com `/tw setpublic true` a sua fica disponível para os outros jogadores.
+- **Proteção de baús e contêineres (BlockProt)** 🛡️ — plante uma placa sobre um baú, fornalha ou similar para reservá-lo; só você consegue abrir (e quem você autorizar).
+- **Recompensas de pesca (FishRewards)** 🎣 — pescar pode render recompensas especiais.
+- **XP ao colher (HarvestEXP)** 🌱 — colher plantações prontas gera XP (configurável para valer apenas em plantações naturais e completamente maduras).
+- **Cabeças de mobs (MoreMobHeads)** 💀 — chance de a cabeça do mob cair ao derrotá-lo; use a cabeça como decoração.
+- **Plantações crescem offline (OfflineGrowth)** 🌾 — as plantações continuam crescendo mesmo sem ninguém por perto.
+- **Receitas de corte (MasterCutter)** 🪚 — centenas de receitas novas: qualquer peça da família da madeira (toras, tábuas, cercas, portas, placas…) vira botão, laje, escada e afins; a pedreira também ganha receitas para andesita e pedras similares.
+- **Receitas veganas (notblue's Vegan Recipes)** 🌿 — couro, penas, blocos de slime, canas de blaze, pórvora e mais são craftados com ingredientes veganos, sem sacrificar mobs passivos.
 
 ---
 
-Divirta-se. Mate um creeper pelo Codex. Volte montado num golfinho no meio da noite. Tome a sopa ao nível 5 e dê um arroto satisfeito. 🫧
+Bom jogo.
