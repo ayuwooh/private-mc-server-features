@@ -97,7 +97,7 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
 | `/ping`, `/tps` | seu ping e o estado do servidor |
 | `/iv` | ativa/desativa os hologramas de itens nos blocos interativos |
 | `/tw` | menu de waystones — viaje entre waystones construídas por você ou que são públicas |
-| `/hug`, `/wave`, `/slap` | emotes do ChatFeelings — interações rápidas com outros jogadores |
+| `/hug`, `/wave`, `/slap` | emotes — interações rápidas com outros jogadores |
 | `/sprays upload <link>`, `/spray` | envia uma imagem e espareja-a na parede |
 
 ---
@@ -105,7 +105,7 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
 ## ✨ Recursos do Mundo
 
 - **Minera spawners com Toque Suave** ⛏️ — picareta de ferro ou melhor. O spawner é coletado como item em vez de ser destruído.
-- **Mineração em cadeia (Vein Miner)** — quebre mantendo-se agachado com a ferramenta correta e a veia inteira quebra junto (picareta→minério, machado→madeira, pá→terra, enxada→planta).
+- **Mineração em cadeia** — quebre mantendo-se agachado com a ferramenta correta e a veia inteira quebra junto (picareta→minério, machado→madeira, pá→terra, enxada→planta).
 - **Cavalgar golfinhos** 🐬 — clique com o direito em um golfinho para montá-lo e conduzi-lo; ele precisa voltar à água.
 - **Compass bossbar** — segurando uma bússola aparece uma barra com a direção ao vivo.
 - **Totem da Imortalidade** — salva você com o item em *qualquer parte* do inventário, não apenas na mão.
@@ -125,14 +125,39 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
 - **Encantamento Escavador** ⛏️ — picaretas com esse encantamento quebram um túnel de minérios e pedra em uma única ação. Disponível na mesa de encantamentos.
 - **Luz dinâmica** ✨ — segurar tochas e lanternas ilumina o ambiente ao redor; ao guardar o item, a luz apaga.
 - **Fogueiras curam** 🔥 — ficar perto de uma fogueira acesa regenera vida lentamente (meia vida a cada 2 s, raio de 3 blocos).
-- **Waystones** 🪨 — construa uma waystone, dê um nome (`/tw setname <nome>`) e viaje pelo menu (`/tw openui`); com `/tw setpublic true` a sua fica disponível para os outros jogadores.
-- **Proteção de baús e contêineres (BlockProt)** 🛡️ — plante uma placa sobre um baú, fornalha ou similar para reservá-lo; só você consegue abrir (e quem você autorizar).
-- **Recompensas de pesca (FishRewards)** 🎣 — pescar pode render recompensas especiais.
-- **XP ao colher (HarvestEXP)** 🌱 — colher plantações prontas gera XP (configurável para valer apenas em plantações naturais e completamente maduras).
-- **Cabeças de mobs (MoreMobHeads)** 💀 — chance de a cabeça do mob cair ao derrotá-lo; use a cabeça como decoração.
-- **Plantações crescem offline (OfflineGrowth)** 🌾 — as plantações continuam crescendo mesmo sem ninguém por perto.
-- **Receitas de corte (MasterCutter)** 🪚 — centenas de receitas novas: qualquer peça da família da madeira (toras, tábuas, cercas, portas, placas…) vira botão, laje, escada e afins; a pedreira também ganha receitas para andesita e pedras similares.
-- **Receitas veganas (notblue's Vegan Recipes)** 🌿 — couro, penas, blocos de slime, canas de blaze, pórvora e mais são craftados com ingredientes veganos, sem sacrificar mobs passivos.
+- **Proteção de baús e contêineres** 🔒 — agachado (shift), clique com o direito no baú para abrir o menu de proteção: tranque para os outros e escolha quem pode abrir.
+- **Recompensas de pesca** 🎣 — ao pescar, há chance de cair um baú-recompensa com animação: cinco tipos do comum ao Leviatã, com itens, XP e algumas surpresas.
+- **XP ao colher** 🌱 — colher plantações maduras gera XP (configurável para valer apenas em plantações naturais e completamente maduras).
+- **Cabeças de mobs** 💀 — chance de a cabeça do mob cair ao derrotá-lo (Looting aumenta a chance); use a cabeça como decoração.
+- **Plantações crescem offline** 🌾 — as plantações continuam crescendo mesmo com o chunk descarregado e sem ninguém por perto.
+- **Pedreira expandida** 🪚 — a pedreira ganhou 500+ receitas: corte de qualquer peça da família da madeira (toras, tábuas, cercas, portas, placas…), receitas extras de pedra, reciclagem e "un-crafting".
+- **Receitas veganas** 🌿 — couro, penas, blocos de slime, canas de blaze, pólvora e mais são craftados com ingredientes veganos, sem sacrificar mobs passivos.
+
+---
+
+## 🪨 Waystones
+
+Pedras de teleporte que você constrói, nomeia e usa para viajar instantaneamente. O bloco aparece como uma **pedra de âncora** (lodestone).
+
+**Como craftar** (mesa de crafting 3×3):
+
+```text
+┌───┬───┬───┐
+│ O │ P │ O │     O = Obsidian (4)
+├───┼───┼───┤     P = Pérola do Ender (4)
+│ P │ C │ P │     C = Bússola (1)
+├───┼───┼───┤
+│ O │ P │ O │
+└───┴───┴───┘
+```
+
+Dá pra conseguir tudo cedo: obsidian com lava e água, pérolas de Endermen ou trocando com clérigos, e a bússola com ferro e sucata — sem precisar do Nether.
+
+**Como usar:**
+- **Nomeie** cada waystone com `/tw setname <nome>`.
+- Abra o **menu de viagem** com `/tw openui` e escolha o destino; `/tw list` mostra suas waystones.
+- Por padrão, cada waystone é **sua** — com `/tw setpublic true` ela fica visível e usável por todos os jogadores.
+- Waystones podem ser **quebradas e levadas** para recolocar em outro lugar.
 
 ---
 
