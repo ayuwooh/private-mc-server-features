@@ -69,6 +69,48 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
 
 ---
 
+## 🪨 Waystones
+
+Pedras de teleporte que você constrói, nomeia e usa para viajar instantaneamente. O bloco aparece como uma **pedra de âncora** (lodestone).
+
+**Como craftar** (mesa de crafting 3×3):
+
+```text
+┌───┬───┬───┐
+│ O │ P │ O │     O = Obsidian (4)
+├───┼───┼───┤     P = Pérola do Ender (4)
+│ P │ C │ P │     C = Bússola (1)
+├───┼───┼───┤
+│ O │ P │ O │
+└───┴───┴───┘
+```
+
+Dá pra conseguir tudo cedo: obsidian com lava e água, pérolas de Endermen ou trocando com clérigos, e a bússola com ferro e sucata — sem precisar do Nether.
+
+**Como usar:**
+- **Nomeie** cada waystone com `/tw setname <nome>`.
+- Abra o **menu de viagem** com `/tw openui` e escolha o destino; `/tw list` mostra suas waystones.
+- Por padrão, cada waystone é **sua** — com `/tw setpublic true` ela fica visível e usável por todos os jogadores.
+- Waystones podem ser **quebradas e levadas** para recolocar em outro lugar.
+
+---
+
+## 🌀 Desbloqueio de Dimensões
+
+As dimensões do servidor abrem conforme sua **jornada de níveis** — o portal não te deixa passar antes da hora.
+
+| Dimensão | Abre no nível |
+|---|---|
+| 🌋 **Nether** | nível **10** |
+| 🔮 **End** | nível **30** — é lá que ficam as Cidades do End e as elytras |
+| 🌀 **Sift** *(em breve)* | nível **60** |
+
+- Ao tocar o portal sem o nível necessário, aparece uma mensagem mostrando o nível exigido.
+- O exigido é o **nível da jornada 1–60** (`/clv`), não a barra de XP vanilla.
+- A **Sift** é a nova dimensão do jogo: quando for lançada, ela será desbloqueada no **nível 60** — direto no máximo da jornada.
+
+---
+
 ## 🖥️ Você, na Tela
 
 - **Lista de players e nome sobre a cabeça:** seu nível entre colchetes — `[42] ayuwooh`.
@@ -116,9 +158,7 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
 - **O dia demora mais** — as fases de dia se prolongam um pouco, e as noites passam mais rápido.
 - **Vindicators Johnny** — uma pequena % dos vindicators é chamada de Johnny e persegue o jogador continuamente 🪓.
 - **Mais tempo debaixo d'água** — a barra de ar é maior antes de o dano começar.
-- **Portal do Nether com nível 10** 🌋 — o portal do Nether só atende jogadores que alcançaram o nível 10 da jornada; ao tentar sem ele, aparece uma mensagem mostrando o nível necessário.
-- **Portal do End com nível 30** 🔮 — mesma regra: o nível 30 da jornada abre o portal do End.
-- **Cofres nas Cidades do End** — os cofres dos navios garantem elytra para mais de um jogador. *(O End abre no nível 30 🔮.)*
+- **Cofres nas Cidades do End** — os cofres dos navios garantem elytra para mais de um jogador.
 - **Baú do End com 6 fileiras** 🧰 — o dobro de espaço no baú do End (6 fileiras em vez de 3).
 - **Votação de sono** 🛏️ — deitar na cama à noite inicia uma votação para pular a noite (bossbar com progresso e sons); sair da cama cancela o voto. Com metade dos jogadores votando, a madrugada é pulada com uma animação de amanhecer ✨. Tempestades também podem ser puladas por voto.
 - **Decaimento de folhas** 🍃 — ao cortar uma árvore, as folhas decaem sozinhas em segundos, mantendo a paisagem limpa (drops incluídos).
@@ -132,32 +172,6 @@ Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qual
 - **Plantações crescem offline** 🌾 — as plantações continuam crescendo mesmo com o chunk descarregado e sem ninguém por perto.
 - **Pedreira expandida** 🪚 — a pedreira ganhou 500+ receitas: corte de qualquer peça da família da madeira (toras, tábuas, cercas, portas, placas…), receitas extras de pedra, reciclagem e "un-crafting".
 - **Receitas veganas** 🌿 — couro, penas, blocos de slime, canas de blaze, pólvora e mais são craftados com ingredientes veganos, sem sacrificar mobs passivos.
-
----
-
-## 🪨 Waystones
-
-Pedras de teleporte que você constrói, nomeia e usa para viajar instantaneamente. O bloco aparece como uma **pedra de âncora** (lodestone).
-
-**Como craftar** (mesa de crafting 3×3):
-
-```text
-┌───┬───┬───┐
-│ O │ P │ O │     O = Obsidian (4)
-├───┼───┼───┤     P = Pérola do Ender (4)
-│ P │ C │ P │     C = Bússola (1)
-├───┼───┼───┤
-│ O │ P │ O │
-└───┴───┴───┘
-```
-
-Dá pra conseguir tudo cedo: obsidian com lava e água, pérolas de Endermen ou trocando com clérigos, e a bússola com ferro e sucata — sem precisar do Nether.
-
-**Como usar:**
-- **Nomeie** cada waystone com `/tw setname <nome>`.
-- Abra o **menu de viagem** com `/tw openui` e escolha o destino; `/tw list` mostra suas waystones.
-- Por padrão, cada waystone é **sua** — com `/tw setpublic true` ela fica visível e usável por todos os jogadores.
-- Waystones podem ser **quebradas e levadas** para recolocar em outro lugar.
 
 ---
 
