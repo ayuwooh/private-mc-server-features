@@ -39,6 +39,8 @@ Todos os jogadores seguem a **mesma jornada**: nível **1 → 60**. Os primeiros
 | 55 | 8× Diamante + 2× Carapaça de Shulker |
 | 60 | 10× Diamante + 8× Maçã Dourada + 4× Sucata de Netherite — nível máximo, com celebração global no servidor 🎉 |
 
+- Cada nível de CyberLevels também **cura e enche a fome** completamente, como recompensa viva do avanço.
+
 Consulte seu nível, ranking e progresso com **`/clv`**.
 
 ### 2. Codex — o compêndio de descobertas 📖
@@ -334,6 +336,7 @@ O mundo principal usa um **gerador de terreno personalizado**: terreno, biomas, 
 - **Reroll de trocas de aldeão** — na tela de troca, uma opção especial gera trocas novas sem gastar esmeralda.
 - **Mobs que pegaram itens voltam a despawnar** 👻 — mobs que pegaram itens, spawners ou blocos carregados voltam a despawnar normalmente.
 - **Hologramas de itens** — blocos interativos (baús, fornos, barris…) mostram um holograma do item; ative/desative com `/iv`.
+- **Plugin extra de encantamentos** — [Possums Grindstone Enchants](https://modrinth.com/plugin/possums-grindstone-enchants?version=26.3&loader=paper) foi adicionado para mais opções de encantamentos na pedra de amolar.
 
 ### 💰 Tesouros que aparecem perto de você
 
@@ -370,6 +373,14 @@ Baús de tesouro surgem perto de jogadores ativos — **a cada 15–30 minutos**
 - **Vindicators Johnny** — 5% dos vindicators são chamados de Johnny e perseguem o jogador continuamente 🪓.
 - **Mensagens de morte exclusivas** 💀 — certas mortes aparecem com frases próprias, como escorregar e cair nas próprias tesouras.
 - **Plantações à prova de pisão** 🌱 — pisotear a terra arada não a destrói mais; correr ou cair sobre a plantação é seguro.
+- **Mecânicas do Purpur** — o servidor usa os ajustes do Purpur com várias melhorias de qualidade de vida e de gameplay:
+  - `affected-by-bonemeal: true` para **cacto**, **nether wart** e **cana-de-açúcar**;
+  - `composter.sneak-to-bulk-process: true` para processamento em massa via agachamento;
+  - `furnace.use-lava-from-underneath: true` para fornos alimentados por lava abaixo;
+  - `spawner.deactivate-by-redstone: true` para despawners desligados por redstone;
+  - `stonecutter.damage: 2.0` para dano menor ao usar a pedra de corte;
+  - `enchantment-table.lapis-persists: true` para lapis que permanece no bloco;
+  - `tools.hoe.replant-crops: true` para enxadas replantando culturas automaticamente.
 
 ---
 
