@@ -1,140 +1,96 @@
-# 🎮 Bem-vindo ao Servidor do ayuwooh — Guia do Jogador
+# 🎮 Guia do Jogador
 
-Este é um servidor de sobrevivência com progressão personalizada, compêndio de lore e mecânicas adicionais na jogabilidade. Este guia lista tudo que está disponível.
+Um servidor de sobrevivência com progressão própria: suba do **nível 1 ao 60**, descubra o mundo pelo **Codex** e evolua suas habilidades.
 
 ---
 
-## 🗡️ Os Três Grandes
+## 📈 Progressão
 
-### 1. Jornada de Níveis — suba até o nível 60
+### Jornada de níveis — 1 → 60
 
-Todos os jogadores seguem a **mesma jornada**: nível **1 → 60**. Os primeiros níveis avançam rapidamente; os últimos exigem mais tempo.
+Todos os jogadores seguem a mesma jornada. Os primeiros níveis sobem rápido; os últimos pedem mais tempo.
 
-**Como você ganha XP de nível:**
-- **Jogar** (+XP a cada poucos minutos)
-- **Caçando monstros** — quanto maior o monstro, maior a recompensa:
-  - Mobs comuns ≈ 2–5 XP
-  - Warden 60–80 · Wither 40–50 · Guardião Ancestral 20–30 · Invocador 12–18
-  - **Dragão do Fim 80–100** — a maior recompensa 💰
-- **Minerando** — minérios pagam XP extra:
-  - Sucata Antiga 30–50 · Diamantes & Esmeraldas 15–25 · Obsidiana 15–25
-  - Ferro, ouro, redstone, quartzo, carvão, cobre, lapis-lazúli — valores menores
-  - Terra, cascalho e pedregulho não pagam XP
-- **Conquistas** — cada avanço desbloqueado rende XP de CyberLevels (veja a seção **Conquistas**)
+**Como ganhar XP:**
+- **Jogando** — XP a cada 5 minutos.
+- **Caçando** — quanto mais forte o mob, maior a recompensa.
+- **Minerando** — minérios mais raros dão mais XP.
+- **Avanços e descobertas do Codex** — cada um rende XP de jornada.
 
-**Recompensas por nível** (além de uma recompensa em *todo* nível de subida):
+> 💡 **Três contadores de XP:** a barra verde vanilla, os níveis de habilidade e a jornada 1–60 são separados. Recompensas do Codex e dos avanços alimentam a **jornada**.
+
+**Recompensas por nível:**
 
 | Nível | O que você recebe |
 |---|---|
 | 5 | 2× Maçã Dourada |
-| 10 | 3× Maçã Dourada + 1× Diamante |
+| 10 | 3× Maçã Dourada + 1× Diamante + acesso ao **Nether** |
 | 15 | 8× Esmeralda |
 | 20 | 3× Diamante + 16× Salmão Assado |
-| 25 | buffs: Regeneração I (90s) + Velocidade II (2 min) |
-| 30 | 4× Diamante + 12× Garrafas de XP |
+| 25 | Regeneração I (90s) + Velocidade II (2 min) |
+| 30 | 4× Diamante + 12× Garrafas de XP + acesso ao **End** |
 | 35 | 6× Maçã Dourada + Força II (2 min) |
 | 40 | 6× Diamante + 24× Garrafas de XP |
 | 45 | 8× Maçã Dourada + 16× Lapis-lazúli |
-| 50 | 6× Diamante + **1× Totem da Imortalidade** — agora você é um *Veterano* |
+| 50 | 6× Diamante + **Totem da Imortalidade** |
 | 55 | 8× Diamante + 2× Carapaça de Shulker |
-| 60 | 10× Diamante + 8× Maçã Dourada + 4× Sucata de Netherite — nível máximo, com celebração global no servidor 🎉 |
+| 60 | 10× Diamante + 8× Maçã Dourada + 4× Sucata de Netherite — nível máximo, com celebração global 🎉 |
 
-- Cada nível de CyberLevels também **cura e enche a fome** completamente, como recompensa viva do avanço.
+- **Todo nível** cura e enche sua fome por completo, além de mostrar o aviso de subida.
 
-Consulte seu nível, ranking e progresso com **`/clv`**.
+### Codex — o compêndio de descobertas 📖
 
-### 2. Codex — o compêndio de descobertas 📖
+Abra com **`/codex`**. Cada descoberta desbloqueia uma página de lore permanente e rende **XP**. Ao encontrar algo novo, aparece o banner **“CÓDICE ATUALIZADO”**.
 
-Abra com **`/codex`** — seu livro de monstros, fauna, biomas, relíquias e muito mais, com a lore de cada coisa que você descobriu.
+| Categoria | O que reúne | Por descoberta | Ao completar |
+|---|---|---|---|
+| 🟣 Monstros | 33 inimigos hostis | +100 XP | +5000 XP |
+| 🟢 Vida Selvagem | 37 animais e criaturas | +100 XP | +4000 XP |
+| 🔴 Lendas & Monstruosidades | 9 bosses e criaturas lendárias | +1000 XP | +15000 XP + **Totem** |
+| 🌿 Biomas | 48 paisagens do Overworld | +5 XP | +1000 XP |
+| 🌌 Biomas Exóticos | 19 terras raras, Nether, End e Vazio | +10 XP | +800 XP |
+| 💎 Relíquias | 24 itens difíceis de obter | +80 XP | +1500 XP |
+| 🐺 Domesticação | 11 animais domáveis e montarias | +100 XP | +1000 XP |
+| 🎵 Música | 19 discos | +50 XP | +1000 XP |
+| 🏺 Arqueologia | 42 fragmentos e moldes | +30 XP | +1200 XP |
+| 🧪 Alquimia | 20 efeitos e poções especiais | +40 XP | +1000 XP |
+| ⚔️ Mestres mcMMO | 17 habilidades no nível 100 | +150 XP | +2000 XP |
+| ⏳ Tempo de Casa | 6 marcos, de 1 a 100 horas | +80 XP | +800 XP |
+| 🎣 Pescaria | 10 peixes e tesouros fisgados | +50 XP | +1000 XP |
 
-- **Descubra algo novo** e o banner *"CÓDICE ATUALIZADO"* aparece na tela; a página de lore correspondente fica desbloqueada permanentemente.
-- **13 categorias:**
-  - 🟣 **Monstros** (33) — inimigos hostis
-  - 🟢 **Vida Selvagem** (37) — animais passivos e criaturas dos biomas
-  - 🔴 **Lendas & Monstruosidades** (9) — Dragão, Wither, Warden e criaturas lendárias
-  - 🌿 **Biomas** (48) — as paisagens comuns do sobre-mundo
-  - 🌌 **Biomas Exóticos** (19) — terras raras, Nether, Fim e o Vazio
-  - 💎 **Relíquias** (24) — itens que o mundo não entrega de graça
-  - 🐺 **Domesticação** (11) — lobos, gatos, cavalos, lhamas, camelos e montarias
-  - 🎵 **Música** (22) — discos de música
-  - 🏺 **Arqueologia** (42) — fragmentos de cerâmica e moldes de armadura
-  - 🧪 **Alquimia** (20) — efeitos de poções
-  - ⚔️ **Mestres mcMMO** (17) — nível 100 em cada habilidade
-  - ⏳ **Tempo de Casa** (6) — marcos de 1 a 100 horas de jogo
-  - 🎣 **Pescaria** (10) — peixes e tesouros fisgados
-- **Como desbloquear:** derrotando mobs, domesticando animais, visitando biomas, obtendo itens, preparando poções, subindo habilidades do mcMMO, acumulando tempo de jogo e pescando.
-- **Recompensas:** **XP de CyberLevels** por descoberta e **bônus ao completar uma categoria**:
-  - Monstros: +100 XP por descoberta, +5000 XP ao completar
-  - Vida Selvagem: +100 XP por descoberta, +4000 XP ao completar
-  - Lendas: +1000 XP por boss, +15000 XP por categoria completa **e um Totem**
-  - Biomas: +5 XP por descoberta, +1000 XP ao completar
-  - Biomas Exóticos: +10 XP por descoberta, +800 XP ao completar
-  - Relíquias: +80 XP por item, +1500 XP ao completar
-  - Domesticação: +100 XP por criatura, +1000 XP ao completar
-  - Música: +50 XP por disco, +1000 XP ao completar
-  - Arqueologia: +30 XP por peça, +1200 XP ao completar
-  - Alquimia: +40 XP por efeito ou poção especial, +1000 XP ao completar
-  - Mestres mcMMO: +150 XP por habilidade, +2000 XP ao completar
-  - Tempo de Casa: +80 XP por marco, +800 XP ao completar
-  - Pescaria: +50 XP por captura, +1000 XP ao completar
-- Entradas bloqueadas aparecem como `??` até serem desbloqueadas.
+- Descobertas ainda bloqueadas aparecem como `??`.
+- Desbloqueie derrotando mobs, domesticando animais, visitando biomas, obtendo itens, preparando poções, subindo habilidades, acumulando tempo de jogo e pescando.
 
-> 💡 **Atenção:** neste servidor existem três contadores de XP — sua **barra verde de XP** (vanilla), os **níveis de habilidade do mcMMO** e o seu **nível 1–60 da jornada**. Eles não se misturam. As recompensas do Codex e das conquistas alimentam o **nível 1–60 da jornada**.
+### Habilidades ⚔️
 
-### 3. mcMMO — sistema de habilidades ⚔️
+- **Nível 300 é o máximo** em todas as habilidades, alcançado apenas jogando.
+- Cada habilidade tem seu próprio **nível**.
+- Veja o progresso de cada uma com **`/fishing`**, **`/mining`**, **`/swords`**…
 
-Melhore habilidades jogando; cada uma desbloqueia sub-habilidades. Consulte qualquer uma com **`/mcmmo`**, ou uma página específica, como `/mining`, `/swords`, `/fishing`.
+### Conquistas — XP por avançar 🏆
 
-- **Nível 300 é o máximo** em todas as habilidades, alcançado apenas jogando (sem atalhos).
-- Ritmo planejado: **Fishing** e as **habilidades de combate** sobem um pouco mais rápido, **Acrobatics** é mais lenta, e Mining/Woodcutting/Herbalism/Excavation ficam no meio.
-- **Repair e Salvage estão desativados**: o reparo de itens funciona normalmente pela bigorna; essas duas habilidades não existem neste servidor.
-- Toda habilidade mostra a própria **barra de XP (bossbar)** conforme você evolui.
+Cada conquista rende XP automaticamente, uma única vez por jogador:
 
----
-
-## 🏆 Conquistas — XP por avançar
-
-Cada **conquista** (advancement) desbloqueada rende **XP de CyberLevels** automaticamente. O valor depende do tipo de conquista:
-
-| Tipo | XP base |
+| Tipo | XP |
 |---|---|
-| História (`story/`) | 25 |
-| Aventura (`adventure/`) | 30 |
-| Agricultura e animais (`husbandry/`) | 30 |
-| Nether (`nether/`) | 40 |
-| Fim (`end/`) | 60 |
+| História | 25 |
+| Aventura | 30 |
+| Agricultura e animais | 30 |
+| Nether | 40 |
+| Fim | 60 |
 | Desafios especiais | 80–300 |
 
-- Conquistas de **receita** (`recipes/`) não dão XP.
-- Cada conquista paga apenas uma vez por jogador.
-- Exemplos de bônus: **Dragão do Fim** +300 XP, **Todos os Efeitos** +250 XP, **Matar Todos os Mobs** +250 XP, **Elytra** +120 XP, **Beacon Completo** +150 XP.
-- O aviso `[+X XP] Conquista desbloqueada` aparece no chat.
+- O chat mostra `[+N XP] Conquista desbloqueada: Nome da Conquista`.
 
 ---
 
-## ⚰️ Túmulos
+## 🏡 Base e itens
 
-Ao morrer, seus itens e **70% do XP** ficam num túmulo no local da morte — em vez de espalhados pelo chão. O túmulo é uma **cabeça de jogador** com um holograma que mostra o dono, o tempo restante, a causa da morte e se está protegido.
+### Proteção de bases 🏠
 
-- **Duração:** 3 horas. Depois disso, o conteúdo é dropado no chão.
-- **Limite:** até 18 túmulos por jogador.
-- **Posicionamento seguro:** se você morrer no ar, na lava, no void, dentro de um bloco ou na neve fofa, o túmulo é colocado no último lugar seguro possível.
-- **Proteção:** nos primeiros **5 minutos**, só você e quem te matou podem abrir. Depois, qualquer um pode.
-- **Não explode:** TNT e creepers não destroem o túmulo. Ele pode ser quebrado com a mão e o conteúdo é entregue a quem quebrar.
-- **Bússola de recuperação:** ao renascer, você recebe uma bússola que aponta para o túmulo mais próximo por **5 minutos**; clique com o direito para ver a distância.
-- **`/graves`:** abre a lista dos seus túmulos com teleporte direto.
-- **Obituário:** todo túmulo contém um livro com nome, causa da morte, data, itens, XP e coordenadas.
-- **Inventário preservado:** o layout exato é mantido; ao quebrar, a armadura volta para os slots corretos.
-- **Se o túmulo não puder ser criado**, você mantém o inventário.
-
----
-
-## 🏠 Proteção de Bases
-
-- **Reivindique chunks** com `/c` (ou `/claim`) onde você está. Os chunks precisam se tocar.
-- **Limites:** 20 chunks, 2 regiões e 10 membros por base.
-- **Célula de energia (powercell):** a base começa com **1440 minutos** (24h) de energia para você construir a powercell. Sem ela, a energia vai caindo e a base acaba dissolvida.
-- **Como construir a powercell:** num **baú único (não duplo) dentro da base**, monte a receita no centro 3×3 e feche o baú. Ele vira a célula de energia.
+- Reivindique o chunk onde está com **`/c`**. Os chunks da base precisam se tocar.
+- Limites: **20 chunks**, **2 regiões** e **10 membros** por base.
+- A base começa com **24 horas** de energia para você construir a powercell. Sem ela, a energia cai e a base acaba dissolvida.
+- **Powercell:** monte a receita no centro de um **baú único** (não duplo) dentro da base e feche o baú.
 
 ```text
 ┌───┬───┬───┐
@@ -146,31 +102,23 @@ Ao morrer, seus itens e **70% do XP** ficam num túmulo no local da morte — em
 └───┴───┴───┘
 ```
 
-- **Abastecimento:** o dono abre a powercell e coloca combustível. Os valores abaixo são a **energia base**; com a equação padrão, o custo é multiplicado pelo tamanho da base — quanto mais chunks, mais rápido consome.
-
-| Item | Energia base |
+| Combustível | Energia |
 |---|---|
-| Diamante | 2880 min (48h) |
-| Ouro | 480 min (8h) |
-| Ferro | 360 min (6h) |
-| Carvão | 180 min (3h) |
-| Cobre | 120 min (2h) |
+| Diamante | 48 h |
+| Ouro | 8 h |
+| Ferro | 6 h |
+| Carvão | 3 h |
+| Cobre | 2 h |
 
-- **Hoppers não abastecem** a powercell.
-- **Energia negativa:** se a base ficar sem energia por muito tempo (limite de -10.080 min), ela é dissolvida.
-- **Permissões por função** — proprietário, membro e visitante, com toggles de quebrar/colocar/interagir, matar mobs, redstone, portas, trocas, PVP, spawn de mobs hostis, fogo, griefing de mobs, decaimento de folhas, TNT e voo.
-- **Convites e membros** — convide, aceite, expulse, bana/desbana.
-- **Trancar/destrancar** a base, **renomear** (até 25 caracteres) e **visualizar** as bordas com `/c show`.
-- **Auditoria** — registro de ações dentro da base, com limpeza automática após 30 dias.
-- **Bossbar ao entrar** — ao entrar numa base, uma barra mostra o nome e a energia restante.
+- O consumo cresce com o número de chunks da base.
+- Ficar sem energia por muito tempo dissolve a base.
+- Permissões separadas para **dono, membro e visitante**: quebrar, colocar, interagir, PVP, redstone, portas, trocas, mobs, fogo, TNT, voo e mais.
+- Convide, aceite, expulse, bana e desbane jogadores; tranque a base, renomeie e veja as bordas com `/c show`.
+- A base tem **auditoria** de ações (limpeza após 30 dias) e uma **bossbar** com nome e energia ao entrar.
 
----
+### Mochilas 🎒
 
-## 🎒 Mochilas
-
-Uma mochila craftável com **27 slots** (3 fileiras). Abra com o **botão direito** segurando a mochila.
-
-**Como craftar** (mesa de crafting 3×3):
+Uma mochila com **27 slots**. Segure e clique com o botão direito para abrir. A receita é aprendida automaticamente ao entrar no servidor.
 
 ```text
 ┌───┬───┬───┐
@@ -182,15 +130,28 @@ Uma mochila craftável com **27 slots** (3 fileiras). Abra com o **botão direit
 └───┴───┴───┘
 ```
 
-A receita é **descoberta automaticamente** ao entrar no servidor. Só existe um tipo de mochila habilitado.
+### Waystones 🪨
 
----
+Pedras de teleporte craftáveis, com aparência de pedra de âncora.
 
-## 🧭 Bússola de Explorador
+```text
+┌───┬───┬───┐
+│ O │ P │ O │     O = Obsidiana (4)
+├───┼───┼───┤     P = Pérola do Ender (4)
+│ P │ C │ P │     C = Bússola (1)
+├───┼───┼───┤
+│ O │ P │ O │
+└───┴───┴───┘
+```
 
-Uma bússola craftável que localiza **estruturas do mundo**. Clique com o botão direito para o **próximo** alvo, clique com o esquerdo para o **anterior**; a agulha aponta para o último alvo encontrado e as coordenadas aparecem no chat. Há um intervalo de **2,5s** entre os cliques.
+- Clique com o direito para abrir o menu de destinos e viajar.
+- Nomeie com `/tw setname <nome>`.
+- Cada waystone é sua por padrão; `/tw setpublic true` a libera para todos.
+- Podem ser quebradas e levadas para outro lugar.
 
-**Como craftar** (mesa de crafting 3×3):
+### Bússola de Explorador 🧭
+
+Localiza estruturas do mundo. Botão direito vai para o **próximo** alvo; botão esquerdo, para o **anterior**. A agulha aponta para o alvo e as coordenadas aparecem no chat. Há **2,5s** entre os cliques.
 
 ```text
 ┌───┬───┬───┐
@@ -202,186 +163,135 @@ Uma bússola craftável que localiza **estruturas do mundo**. Clique com o botã
 └───┴───┴───┘
 ```
 
-**Alvos disponíveis (9):** Vila, Cidade Antiga, Câmaras de Prova, Pirâmide do Deserto, Mansão, Cabana da Bruxa, Posto de Saqueador, Fortaleza e Cavernas Grandes. Todos são estruturas do **Overworld**.
-
-A receita é **desbloqueada automaticamente** ao entrar no servidor.
+**Alvos (9):** Vila, Cidade Antiga, Câmaras de Prova, Pirâmide do Deserto, Mansão, Cabana da Bruxa, Posto de Saqueador, Fortaleza e Cavernas Grandes. A receita é aprendida automaticamente.
 
 ---
 
-## 🪨 Waystones
+## ⚰️ Túmulos
 
-Pedras de teleporte que você constrói, nomeia e usa para viajar instantaneamente. O bloco aparece como uma **pedra de âncora** (lodestone).
+Ao morrer, seus itens e **70% do XP** ficam num túmulo no local da morte, em vez de espalhados pelo chão.
 
-**Como craftar** (mesa de crafting 3×3):
-
-```text
-┌───┬───┬───┐
-│ O │ P │ O │     O = Obsidian (4)
-├───┼───┼───┤     P = Pérola do Ender (4)
-│ P │ C │ P │     C = Bússola (1)
-├───┼───┼───┤
-│ O │ P │ O │
-└───┴───┴───┘
-```
-
-Dá pra conseguir tudo cedo: obsidian com lava e água, pérolas de Endermen ou trocando com clérigos, e a bússola com ferro e sucata — sem precisar do Nether.
-
-**Como usar:**
-- **Clique com o direito na waystone** para abrir o menu de destinos e viajar.
-- **Nomeie** cada waystone com `/tw setname <nome>`.
-- Por padrão, cada waystone é **sua** — com `/tw setpublic true` ela fica visível e usável por todos os jogadores.
-- Waystones podem ser **quebradas e levadas** para recolocar em outro lugar.
+- O túmulo é uma **cabeça de jogador** com holograma do dono, tempo restante, causa da morte e proteção.
+- **Duração:** 3 horas. Depois, o conteúdo cai no chão.
+- **Limite:** 18 túmulos por jogador.
+- **Local seguro:** se morrer no ar, na lava, no void ou dentro de um bloco, o túmulo vai para o último lugar seguro.
+- **Proteção:** nos primeiros **5 minutos**, só você e quem te matou podem abrir. Depois, qualquer um.
+- **Não explode** com TNT ou creepers. Pode ser quebrado com a mão; quem quebrar leva o conteúdo.
+- Ao renascer, você recebe uma **bússola** que aponta para o túmulo mais próximo por 5 minutos.
+- **`/graves`** lista seus túmulos.
+- O túmulo guarda um **livro** com nome, causa da morte, data, itens, XP e coordenadas. O layout do inventário e a armadura são preservados.
+- Se o túmulo não puder ser criado, você mantém o inventário.
 
 ---
 
-## ⚔️ Combate & PVP
+## ⚔️ Combate e PvP
 
-- **Dragão do End escalado** 🐉 — a vida, o dano e a resistência do dragão (e das curas dos cristais) crescem com o número de jogadores na luta. Ataques especiais: raios, sopro e bolas de fogo. Recompensas distribuídas conforme o dano causado.
-- **PvP opt-in** ⚔️ — o PvP começa **desligado** para todo mundo. Use `/pvp` para ligar ou desligar. Com o PvP desligado, você não dá nem recebe dano de outros jogadores (leva knockback em vez de dano); animais domados, fogo/lava perto de você e efeitos hostis também são protegidos. Depois de entrar em combate, são **30s** antes de poder alternar. Sair do jogo durante o combate **não** mata o personagem.
-- **Ovos de spawn** 💚 — chance de 2% de um ovo de spawn cair ao derrotar um mob (incluindo os de spawners).
-- **Recompensas por trim** 🛡️ — conjuntos completos de armadura com o mesmo padrão de trim concedem efeitos passivos (2/3/4 peças = tiers; set completo = "Ascended"). Misturar padrões pode gerar penalidades. Recompensas extras por PvP.
-- **Cabeças de mobs** 💀 — chance de a cabeça do mob cair ao derrotá-lo (Looting aumenta); mini-blocos via pedra de corte e compra com o wandering trader.
+- **Dragão do End escalado** 🐉 — vida, dano e resistência crescem com o número de jogadores. Ele usa raios, sopro e bolas de fogo, e as recompensas são divididas pelo dano causado. **Cristais do End explodem com mais força e causam fogo**.
+- **PvP opt-in** — começa **desligado**. Use **`/pvp`** para ligar ou desligar. Sem PvP, você não dá nem recebe dano de jogadores (leva knockback), e animais domados, fogo/lava próximos e efeitos hostis também são protegidos. Após entrar em combate, são **30s** para poder alternar. Sair do jogo durante o combate não mata seu personagem.
+- **Ovos de spawn** — 2% de chance ao derrotar um mob, inclusive os de spawners.
+- **Recompensas por trim** — conjuntos completos com o mesmo padrão dão efeitos passivos (2, 3 e 4 peças; set completo vira “Ascended”). Misturar padrões pode gerar penalidades.
+- **Cabeças de mobs** — chance de cair ao derrotar; Looting aumenta a chance. Também dá para fazer mini-blocos na pedra de corte ou comprar do vendedor ambulante.
 
 ---
 
-## 🌀 Desbloqueio de Dimensões
+## 🌍 O mundo
 
-As dimensões do servidor abrem conforme sua **jornada de níveis** — o portal não te deixa passar antes da hora.
+### Mundo Terraformado
+
+O mundo principal usa geração personalizada de terreno, biomas, rios, montanhas, cavernas e estruturas próprias.
+
+- **40+ biomas**, incluindo montanhas pintadas, savanas fragmentadas, florestas escarlates, cerejeiras, taigas, manguezais e vários oceanos.
+- **Estruturas próprias:** vilas, postos de saqueador, pirâmides, monumentos oceânicos, mansões, fortes, cidades antigas, câmaras de prova, catacumbas, minas, ruínas, naufrágios, iglus, poços do deserto e acampamentos abandonados.
+- **Cavernas especiais:** grandes, exuberantes (lush) e de cogumelos.
+
+### Dimensões
 
 | Dimensão | Abre no nível |
 |---|---|
-| 🌋 **Nether** | nível **10** |
-| 🔮 **End** | nível **30** — é lá que ficam as Cidades do End e as elytras |
-| 🌀 **Sift** *(em breve)* | nível **60** |
+| 🌋 Nether | 10 |
+| 🔮 End | 30 — Cidades do End e elytras |
+| 🌀 Sift *(em breve)* | 60 |
 
-- Ao tocar o portal sem o nível necessário, aparece uma mensagem mostrando o nível exigido.
-- O exigido é o **nível da jornada 1–60** (`/clv`), não a barra de XP vanilla.
-- A **Sift** é a nova dimensão do jogo: quando for lançada, ela será desbloqueada no **nível 60** — direto no máximo da jornada.
+O portal avisa o nível necessário.
 
----
+### Mapa e conexão
 
-## 🌍 Mundo Terraformado
+- **Mapa 3D no navegador:** `http://<ip-do-servidor>:8100`.
+- **Voxy:** clientes com o mod recebem terreno distante do servidor (até 512 chunks no Overworld e no End, 64 no Nether).
 
-O mundo principal usa um **gerador de terreno personalizado**: terreno, biomas, rios, montanhas, cavernas e estruturas próprias (vilas, cidades antigas, câmaras de prova, mansões, fortes, monumentos, catacumbas, minas, ruínas, naufrágios, iglus, poços do deserto, acampamentos abandonados e mais).
+### Tesouros e recompensas do mundo
 
-- **40+ biomas** — montanhas pintadas, colinas, savanas fragmentadas, florestas escarlates, cerejeiras, taigas, manguezais, oceanos de vários tipos, praias e mais.
-- **Estruturas próprias** — vilas (planície/deserto/savana/neve/taiga), postos de saqueador, pirâmides, monumentos oceânicos, mansões, fortes, cidades antigas, câmaras de prova, catacumbas, minas (inclusive badlands), ruínas do trail, ruínas oceânicas quentes, cavernas grandes, naufrágios, iglus, poços do deserto, acampamentos abandonados e mais.
-- **Cavernas especiais** — cavernas grandes, cavernas exuberantes (lush) e cavernas de cogumelos.
-
----
-
-## 🗺️ Mapa e Conexão
-
-- **Mapa 3D no navegador** — o mundo é renderizado e pode ser explorado em `http://<ip-do-servidor>:8100`.
-- **Renderização de distância** — clientes com o mod **Voxy** recebem o terreno distante do servidor (até 512 chunks no Overworld, 64 no Nether e 512 no End).
+- **Baús de tesouro** surgem perto de jogadores ativos a cada **15–30 minutos**, entre 12 e 30 blocos. Cada jogador tem **1 por vez**, e o baú dura **5 minutos**.
+- São **4 raridades** (Comum, Rara, Lendária e Mítica) e os primeiros **60 segundos** são só seus.
+- **10% são mimics:** alguns entregam o loot, outros se disfarçam de raridade melhor. Vencer um mimic dobra o loot e dá **40 XP**; se ele fugir em 60s, você perde o restante. O loot sai aos poucos conforme você causa dano.
+- **Recompensas de pesca:** ao pescar, há chance de um baú-recompensa com animação, do comum ao **Leviatã**, com itens, XP e surpresas.
+- **Cofres das Cidades do End** garantem elytra para mais de um jogador.
 
 ---
 
-## 🖥️ Você, na Tela
+## ✨ Qualidade de vida
 
-- **Lista de players e nome sobre a cabeça:** seu nível entre colchetes — `[42] ayuwooh`.
-- **Dimensão no tab:** depois do nível, a inicial da dimensão entre colchetes e colorida — `[12] [O] ayuwooh`: **O** verde (Overworld), **N** vermelha (Nether), **E** roxa (End).
-- **Tab ordenado por nível** — do nível mais alto para o mais baixo; empates em ordem alfabética.
-- **Scoreboard lateral** (aparece ao entrar) — **alterna a cada 15s** entre dois painéis para não poluir a tela:
-  - **Painel de Progresso**: seu nickname, `Nível: 42`, uma **barra de progresso de XP** ao vivo com o **%** ao lado e seu **tempo total de jogo**
-  - **Painel de Habilidades**: Power Level no topo e o nível de cada habilidade (mineração, madeira, ervas, escavação, pesca, espadas, machados, arqueia, acrobática e doma)
-  - Ativa/desativa com **`/sb`** — sua escolha fica salva entre sessões.
-- **Embaixo do seu nome no tab:** um coração vermelho com sua vida ❤️
+### 🌱 Agricultura
+
+- Colher plantações maduras dá XP; plantações continuam crescendo **offline**.
+- Pisotear terra arada **não destrói** mais a plantação.
+- **Farinha de osso** acelera **cacto**, **nether wart** e **cana-de-açúcar**.
+- **Enxadas replantam** a cultura na hora da colheita.
+- No **composter**, agache e clique com o direito para processar **tudo de uma vez**.
+- Receitas veganas permitem craftar couro, penas, slime, canas de blaze, pólvora e mais sem matar mobs passivos.
+
+### 🛠️ Equipamentos e encantamentos
+
+- **Bigornas sem “Muito Caro!”** — o limite de 40 níveis não existe; o custo real de XP é exibido e cobrado.
+- **Cores em bigornas e placas** — use `&`, hex (`#55ffff`) e gradientes (`<gradient:red:gold>`) ao renomear ou escrever.
+- **Pedra de amolar** remove a Maldição do Vínculo e a Maldição do Desaparecimento.
+- **Recuperação de Encantamentos** — permite **guardar encantamentos de itens em livros** usando a pedra de amolar.
+- **Arco Infinito** dispara mesmo sem flechas no inventário.
+- **Totem da Imortalidade** funciona de qualquer slot do inventário.
+- **Tesouras** têm 50% de chance de desarmar TNT acesa; correr com tesouras não machuca.
+- **Spawners** podem ser minerados com Toque Suave usando picareta de ferro ou melhor.
+- **Encantamento Escavador** — picaretas com ele abrem um túnel de minérios e pedra em uma ação.
+
+### 🔥 Blocos e utilidades
+
+- **Forno em cima de lava** funciona sem combustível — a fonte de lava embaixo é consumida.
+- **Redstone desliga spawners.**
+- **Pedra de corte** machuca quem pisa nela: **1 coração** por passo.
+- **Mesa de encantamentos** mantém o lápis-lazúli entre usos e devolve o que sobrou se a mesa for quebrada.
+- **Beacons** funcionam através de vidro tingido.
+- **Baú do End (ender chest)** tem **6 fileiras**.
+- É possível colocar **água no End** com baldes.
+- **Lava e água infinitas** com apenas 2 fontes.
+- **Mineração em cadeia** — agache e quebre com a ferramenta certa para derrubar a veia inteira (picareta→minério, machado→madeira, pá→terra, enxada→planta).
+- **Pedreira expandida** — mais de 500 receitas: cortes de madeira, pedra, reciclagem e “un-crafting”.
+- **Luz dinâmica** — tochas e lanternas na mão iluminam ao redor.
+- **Fogueiras curam** lentamente num raio de 3 blocos.
+- **Decaimento de folhas** — ao cortar uma árvore, as folhas somem em segundos, com drops.
+- **Votação de sono** — deitar na cama inicia uma votação com bossbar; metade dos jogadores pula a noite. Tempestades também podem ser puladas.
+- **Hologramas de itens** em baús, fornos e barris; ative ou desative com **`/iv`**.
+- **Bússola na mão** mostra uma bossbar com a direção.
+- **Bolas de neve** apagam fogo, velas e fogueiras.
+- **Mobs que pegaram itens** voltam a despawnar normalmente.
+- **Aldeões** seguem você quando segura um bloco de esmeralda; trocas podem ser **rerroladas** na tela de troca.
+- **Cavalgar golfinhos** e **dirigir carrinhos** com W/A/S/D (o carrinho sobe degraus de 1 bloco). Entre os mobs montáveis, filhotes e animais ainda não domados também podem ser montados.
+- **O dia dura mais** e as noites passam mais rápido; a barra de ar debaixo d'água é maior.
+- **Vindicators Johnny** — 5% perseguem o jogador continuamente 🪓.
+- **Mensagens de morte exclusivas**, como escorregar nas próprias tesouras ou se serrar ao meio.
+- **Comer até encher** causa um arroto 🫧.
+- **Poses e emotes** — sentar, deitar, rastejar, abraçar, acenar e mais. Skins personalizadas e sprays de imagens também estão disponíveis.
 
 ---
 
-## 🛋️ Comandos do jogador
+## 🧾 Comandos essenciais
 
-| Comando | O que faz |
+| Comando | Para quê |
 |---|---|
-| `/clv` | nível da jornada, ranking e progresso |
 | `/codex` | compêndio de descobertas |
-| `/mcmmo` | habilidades (ou `/mining`, `/swords`, `/fishing`…) |
-| `/sit` | senta em qualquer lugar (clicar com o direito em degraus/escadas também serve) |
-| `/lay` | deita no chão |
-| `/legsup` | senta com as pernas para cima |
-| `/bellyflop` | salto de barriga 🤸 |
-| `/spin` | gira no lugar |
-| `/crawl` | rasteja de barriga |
-| `/skin` | `/skin set <nome>` ou `/skin url <link>` — troca de skin em servidor offline |
-| `/ping`, `/tps` | seu ping e o estado do servidor |
-| `/iv` | ativa/desativa os hologramas de itens nos blocos interativos |
-| `/hug`, `/wave`, `/slap` | emotes — interações rápidas com outros jogadores (lista completa em `/feelings`) |
-| `/sprays upload <link>`, `/spray` | envia uma imagem e espalha-a na parede |
-| `/graves` | lista e teleporte para seus túmulos; bússola de recuperação |
-| `/trimeffect` (`/te`) | trims, temporada e recompensas PvP |
-| `/pvp` | liga/desliga seu PvP |
-| `/c` (`/claim`) | proteção de bases (reivindicar, convidar, configurar) |
-| `/veinminer` (`/vm`) | mineração em cadeia |
-| `/dynamiclight` (`/dl`) | luz dinâmica |
-| `/sb` | scoreboard |
+| `/fishing` | progresso da habilidade (ou `/mining`, `/swords`…) |
+| `/c` | proteção de bases |
+| `/graves` | seus túmulos e teleporte |
+| `/pvp` | liga/desliga o PvP |
+| `/sb` | scoreboard liga/desliga |
+| `/help` | lista completa de comandos |
 
----
-
-## ✨ Recursos do Mundo
-
-- **Mineração em cadeia** — quebre mantendo-se agachado com a ferramenta correta e a veia inteira quebra junto (picareta→minério, machado→madeira, pá→terra, enxada→planta).
-- **Encantamento Escavador** ⛏️ — picaretas com esse encantamento quebram um túnel de minérios e pedra em uma única ação. Disponível na mesa de encantamentos.
-- **XP ao colher** 🌱 — colher plantações maduras gera XP (configurável para valer apenas em plantações naturais e completamente maduras).
-- **Plantações crescem offline** 🌾 — as plantações continuam crescendo mesmo com o chunk descarregado e sem ninguém por perto.
-- **Pedreira expandida** 🪚 — a pedreira ganhou 500+ receitas: corte de qualquer peça da família da madeira (toras, tábuas, cercas, portas, placas…), receitas extras de pedra, reciclagem e "un-crafting".
-- **Receitas veganas** 🌿 — couro, penas, blocos de slime, canas de blaze, pólvora e mais são craftados com ingredientes veganos, sem sacrificar mobs passivos.
-- **Recompensas de pesca** 🎣 — ao pescar, há chance de cair um baú-recompensa com animação: cinco tipos do comum ao Leviatã, com itens, XP e algumas surpresas.
-- **Cofres nas Cidades do End** — os cofres dos navios garantem elytra para mais de um jogador.
-- **Luz dinâmica** ✨ — segurar tochas e lanternas ilumina o ambiente ao redor; ao guardar o item, a luz apaga.
-- **Fogueiras curam** 🔥 — ficar perto de uma fogueira acesa regenera vida lentamente (meia vida a cada 2 s, raio de 3 blocos).
-- **Decaimento de folhas** 🍃 — ao cortar uma árvore, as folhas decaem sozinhas em segundos, mantendo a paisagem limpa (drops incluídos).
-- **Votação de sono** 🛏️ — deitar na cama à noite inicia uma votação para pular a noite (bossbar com progresso e sons); sair da cama cancela o voto. Com metade dos jogadores votando, a madrugada é pulada com uma animação de amanhecer ✨. Tempestades também podem ser puladas por voto.
-- **Aldeões que seguem você** 🧑‍🌾 — segure um bloco de esmeralda e um aldeão te segue.
-- **Reroll de trocas de aldeão** — na tela de troca, uma opção especial gera trocas novas sem gastar esmeralda.
-- **Mobs que pegaram itens voltam a despawnar** 👻 — mobs que pegaram itens, spawners ou blocos carregados voltam a despawnar normalmente.
-- **Hologramas de itens** — blocos interativos (baús, fornos, barris…) mostram um holograma do item; ative/desative com `/iv`.
-- **Plugin extra de encantamentos** — [Possums Grindstone Enchants](https://modrinth.com/plugin/possums-grindstone-enchants?version=26.3&loader=paper) foi adicionado para mais opções de encantamentos na pedra de amolar.
-
-### 💰 Tesouros que aparecem perto de você
-
-Baús de tesouro surgem perto de jogadores ativos — **a cada 15–30 minutos**, entre **12 e 30 blocos** de distância. Cada jogador tem no máximo **1 baú** por vez, e cada mundo até **40**.
-
-- O baú desaparece **5 minutos** depois de surgir. Nos primeiros **60 segundos**, só o jogador para quem ele apareceu pode abrir.
-- É **inquebrável** e não aceita itens seus.
-- **4 raridades:** Comum (60%), Rara (25%), Lendária (12%) e Mítica (3%).
-- **10% são mimics:** o baú acorda e luta. Alguns são amigáveis e entregam o loot; outros se disfarçam de raridade melhor.
-- Se você vencer o mimic, ele dropa **o dobro** de loot e **40 XP**; se ele fugir (60s), você perde o restante.
-- O loot sai aos poucos conforme você causa dano, então uma luta perdida ainda deixa algo.
-
----
-
-## ⚙️ Ajustes de Jogabilidade
-
-- **Baú do End com 6 fileiras** 🧰 — o dobro de espaço no baú do End (6 fileiras em vez de 3).
-- **Água no End** 💧 — é possível colocar água no End com baldes.
-- **Beacons com vidro tingido** — vidro tingido não bloqueia os efeitos do beacon.
-- **Anvils sem "Muito Caro!"** 🛠️ — o limite de 40 níveis não existe mais: reparos e encantamentos caros continuam disponíveis, com o custo real de XP exibido e cobrado. Ao renomear, códigos de cor `&`, hex (`#55ffff`) e gradientes (`<gradient:red:gold>`) funcionam.
-- **Pedra de amolar e maldições** — a pedra de amolar remove a Maldição do Vínculo e a Maldição do Desaparecimento.
-- **Placas com cor** 🪧 — placas aceitam códigos de cor `&` ao escrever nelas.
-- **Arco Infinito sem flechas** 🏹 — com o encantamento Infinito, dispare mesmo sem nenhuma flecha no inventário.
-- **Tesouras desarmam TNT** ✂️ — um golpe de tesoura na TNT acesa tem 50% de chance de desarmá-la. Correr com tesouras não machuca.
-- **Totem da Imortalidade** — salva você com o item em *qualquer parte* do inventário, não apenas na mão.
-- **Minera spawners com Toque Suave** ⛏️ — picareta de ferro ou melhor. O spawner é coletado como item em vez de ser destruído.
-- **Cavalgar golfinhos** 🐬 — clique com o direito em um golfinho para montá-lo e conduzi-lo; ele precisa voltar à água.
-- **Carrinhos guiáveis** 🛤️ — sentado em um carrinho de minério, dirija-o com W/A/S/D; ele sobe degraus de 1 bloco.
-- **Compass bossbar** — segurando uma bússola aparece uma barra com a direção ao vivo.
-- **Bolas de neve apagam fogo** — apagam fogueiras, velas e chamas ao acertar.
-- **Arroto ao encher a fome** 🫧 — comer até o máximo da fome causa um arroto.
-- **O dia demora mais** — as fases de dia se prolongam um pouco, e as noites passam mais rápido.
-- **Mais tempo debaixo d'água** — a barra de ar é maior antes de o dano começar.
-- **Vindicators Johnny** — 5% dos vindicators são chamados de Johnny e perseguem o jogador continuamente 🪓.
-- **Mensagens de morte exclusivas** 💀 — certas mortes aparecem com frases próprias, como escorregar e cair nas próprias tesouras.
-- **Plantações à prova de pisão** 🌱 — pisotear a terra arada não a destrói mais; correr ou cair sobre a plantação é seguro.
-- **Mecânicas do Purpur** — o servidor usa os ajustes do Purpur com várias melhorias de qualidade de vida e de gameplay:
-  - `affected-by-bonemeal: true` para **cacto**, **nether wart** e **cana-de-açúcar**;
-  - `composter.sneak-to-bulk-process: true` para processamento em massa via agachamento;
-  - `furnace.use-lava-from-underneath: true` para fornos alimentados por lava abaixo;
-  - `spawner.deactivate-by-redstone: true` para despawners desligados por redstone;
-  - `stonecutter.damage: 2.0` para dano menor ao usar a pedra de corte;
-  - `enchantment-table.lapis-persists: true` para lapis que permanece no bloco;
-  - `tools.hoe.replant-crops: true` para enxadas replantando culturas automaticamente.
-
----
-
-Bom jogo.
+Bom jogo. 🎉
