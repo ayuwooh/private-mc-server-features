@@ -252,10 +252,19 @@ O portal avisa o nível necessário.
 - **Spawners** podem ser minerados com Toque Suave usando picareta de ferro ou melhor.
 - **Encantamento Escavador** — picaretas com ele abrem um túnel de minérios e pedra em uma ação.
 
+### ♻️ Reciclagem
+
+- **Agache e clique com o direito numa mesa de ferraria** para abrir o Recycler.
+- Coloque uma **ferramenta, arma ou armadura** e clique em **Reciclar Item**: você recebe de **40% a 80%** dos materiais de crafting, sorteados a cada reciclagem.
+- Funciona com itens **encantados, danificados ou renomeados**. Itens com **modelo customizado** são bloqueados.
+- Itens sem receita de crafting têm retorno próprio: **netherita** → sucata de netherita + diamante, **malha** → ferro, **tridente** → fragmento de prismarinho, **elytra** → membrana de phantom.
+- Selas e armaduras de cavalo e de lobo também podem ser recicladas.
+
 ### 🔥 Blocos e utilidades
 
 - **Forno em cima de lava** funciona sem combustível — a fonte de lava embaixo é consumida.
 - **Redstone desliga spawners.**
+- **Creepers não destroem mais blocos** — a explosão continua machucando jogadores e mobs, mas não abre crateras nem apaga construções.
 - **Pedra de corte** machuca quem pisa nela: **1 coração** por passo.
 - **Mesa de encantamentos** mantém o lápis-lazúli entre usos e devolve o que sobrou se a mesa for quebrada.
 - **Beacons** funcionam através de vidro tingido.
