@@ -2,15 +2,15 @@
 
 Um servidor de sobrevivência com progressão própria: suba do **nível 1 ao 60**, descubra o mundo pelo **Codex** e evolua suas habilidades.
 
-> Este guia cobre recursos disponíveis para jogadores Java e Bedrock. Alguns itens especiais usam modelos de resource pack; a aparência pode variar entre plataformas. Para receitas de datapacks, consulte o livro de receitas/avanços do jogo ou o guia do próprio recurso.
+> Este guia cobre recursos disponíveis para jogadores Java e Bedrock. Alguns itens especiais usam modelos e efeitos visuais enviados pelo servidor; a aparência pode variar entre plataformas. Receitas adicionais podem ser encontradas no livro de receitas e nos avanços do jogo.
 
 ## 🗞️ Novidades — 3 de novembro de 2026
 
-- Atualizado o guia das **mochilas** para o plugin atual: receita e instruções ficam no menu `/backpack`; não há mochila inicial automática.
+- Atualizadas as regras de proteção de bases e recuperação de itens após a morte conforme a configuração atual.
 - As missões diárias e semanais agora oferecem **2 missões de cada dificuldade** (fácil, média e difícil) por ciclo.
 - Adicionados objetivos globais únicos para marcos de jornada, além de recompensas em dinheiro e insígnias de progressão nas trilhas de missões.
 - Rebalanceados alguns valores da economia da loja e a experiência de pesca do mcMMO; colocar blocos não concede XP de jornada.
-- Documentados **A Jornada do Herói** e **Ferramentas de Construção do Jake**, datapacks ativos com novos objetivos, itens e utilidades.
+- Ampliada a documentação de exploração, construção, receitas, personalização, guildas, chat e interface do jogador.
 
 ---
 
@@ -33,8 +33,8 @@ Todos os jogadores seguem a mesma jornada. Os primeiros níveis sobem rápido; o
 | Nível | O que você recebe |
 |---|---|
 | 5 | 2× Maçã Dourada |
-| 10 | 3× Maçã Dourada + 1× Diamante + acesso ao **Nether** |
-| 15 | 8× Esmeralda |
+| 10 | 3× Maçã Dourada + 1× Diamante |
+| 15 | 8× Esmeralda + acesso ao **Nether** |
 | 20 | 3× Diamante + 16× Salmão Assado |
 | 25 | Regeneração I (90s) + Velocidade II (2 min) |
 | 30 | 4× Diamante + 12× Garrafas de XP + acesso ao **End** |
@@ -76,6 +76,10 @@ Abra com **`/codex`**. Cada descoberta desbloqueia uma página de lore permanent
 - Cada habilidade tem seu próprio **nível**.
 - Veja o progresso de cada uma com **`/fishing`**, **`/mining`**, **`/swords`**…
 
+### Raças e origens 🧬
+
+Escolha uma raça no menu do NPC **Mudar de Raça** no Spawn. Há 12 opções: **Anão, Elfo, Goblin, Halfling, Humano, Sereiano, Orc, Tiefling, Troll, Morto-Vivo, Vampiro e Lobisomem**. Cada uma oferece habilidades próprias; leia a descrição no menu antes de escolher. A raça também aparece abaixo do nome dos jogadores.
+
 ### Conquistas — XP por avançar 🏆
 
 Cada conquista rende XP automaticamente, uma única vez por jogador:
@@ -98,7 +102,7 @@ Cada conquista rende XP automaticamente, uma única vez por jogador:
 ### Proteção de bases 🏠
 
 - Reivindique o chunk onde está com **`/c`**. Os chunks da base precisam se tocar.
-- Limites: **20 chunks**, **2 regiões** e **10 membros** por base.
+- Limites: **32 chunks**, **2 regiões** e **10 membros** por base.
 - A base começa com **24 horas** de energia para você construir a powercell. Sem ela, a energia cai e a base acaba dissolvida.
 - **Powercell:** monte a receita no centro de um **baú único** (não duplo) dentro da base e feche o baú.
 
@@ -120,19 +124,15 @@ Cada conquista rende XP automaticamente, uma única vez por jogador:
 | Carvão | 3 h |
 | Cobre | 2 h |
 | Esmeralda | 12 h |
-| Lápis-lazúli / ametista | 4 h |
-| Redstone / carvão vegetal | 2 h |
-| Vara de blaze | 6 h |
+| Lápis-lazúli, ametista, quartzo e pó de pedra luminosa | 3–4 h |
+| Redstone, carvão vegetal e bambu | 2 h ou menos |
+| Vara de blaze, pérola do Ender e prismarina | 4–6 h |
 | Sucata de netherita | 96 h |
-| Bloco de cobre / redstone | 18 h |
-| Bloco de ferro | 54 h |
-| Bloco de ouro | 72 h |
-| Bloco de carvão | 27 h |
-| Bloco de lápis-lazúli | 36 h |
-| Bloco de esmeralda | 108 h |
-| Bloco de diamante | 144 h |
+| Blocos de metais, gemas e minerais | de 18 h a 144 h |
+| Troncos | 30–45 min |
+| Colheitas e plantas | 20–60 min |
 
-- O consumo cresce com o número de chunks da base.
+- Também podem ser usados troncos, bambu e colheitas, para que lenhadores e agricultores mantenham suas bases. Os valores indicados são antes do ajuste pelo tamanho da base. O consumo cresce conforme o número de chunks reivindicados.
 - Ficar sem energia por muito tempo dissolve a base.
 - Permissões separadas para **dono, membro e visitante**: quebrar, colocar, interagir, PVP, redstone, portas, trocas, mobs, fogo, TNT, voo e mais.
 - Convide, aceite, expulse, bana e desbane jogadores; tranque a base, renomeie e veja as bordas com `/c show`.
@@ -140,7 +140,7 @@ Cada conquista rende XP automaticamente, uma única vez por jogador:
 
 ### Mochilas 🎒
 
-O servidor usa o plugin **ExpendableBackpacks**. Mochilas não são entregues automaticamente ao entrar. Segure uma mochila e clique com o botão direito para abrir. As melhorias preservam os itens guardados.
+Mochilas não são entregues automaticamente ao entrar. Segure uma mochila e clique com o botão direito para abrir. As melhorias preservam os itens guardados. O sistema também oferece um guia visual de receitas no jogo.
 
 #### Mochila inicial: Couro
 
@@ -201,7 +201,7 @@ Também é possível colocar **1 Enderpack + 1 Pérola do Ender** em qualquer es
 
 Mochilas não podem ser colocadas dentro de outras mochilas.
 
-### Waystones 🪨
+### Pedras de teleporte 🪨
 
 Pedras de teleporte craftáveis, com aparência de pedra de âncora.
 
@@ -216,9 +216,24 @@ Pedras de teleporte craftáveis, com aparência de pedra de âncora.
 ```
 
 - Clique com o direito para abrir o menu de destinos e viajar.
-- Nomeie com `/tw setname <nome>`.
-- Cada waystone é sua por padrão; `/tw setpublic true` a libera para todos.
+- Cada waystone é privada por padrão. Para renomeá-la, fique ao lado e use `/tw setname <nome>` (sem espaços); para permitir que qualquer pessoa viaje até ela sem ter visitado antes, olhe para a pedra e use `/tw setpublic true`. Use `false` para torná-la privada novamente.
 - Podem ser quebradas e levadas para outro lugar.
+
+### Pedra do Regresso 🏡
+
+Uma pedra que guarda um ponto de retorno escolhido por você. Agache e clique com o botão direito antes de usá-la para vincular sua localização; depois, clique com o botão direito para voltar. A ativação leva **5 segundos** e o item tem um tempo de recarga de **60 segundos**. Cada pedra fica vinculada ao primeiro jogador que a usar.
+
+Receita na bancada:
+
+```text
+┌───┬───┬───┐
+│ A │ E │ A │     A = Fragmento de ametista
+├───┼───┼───┤     E = Pérola do Ender
+│ S │ C │ S │     S = Tijolos de pedra
+├───┼───┼───┤     C = Bússola
+│ # │ # │ # │     # = Pedra lisa
+└───┴───┴───┘
+```
 
 ### Missões e contratos 📜
 
@@ -240,7 +255,7 @@ No Spawn, interaja com o NPC **Missões** para abrir o menu de contratos.
 
 ### NPCs do Spawn 🧑‍🤝‍🧑
 
-Os NPCs abaixo estão cadastrados no mundo do Spawn. Aproxime-se e interaja para abrir o serviço; quando houver mais de uma opção, use o botão indicado pelo próprio NPC.
+Aproxime-se e interaja com o NPC para abrir o serviço; quando houver mais de uma opção, use o botão indicado pelo próprio NPC.
 
 | NPC | Serviço |
 |---|---|
@@ -255,8 +270,9 @@ Os NPCs abaixo estão cadastrados no mundo do Spawn. Aproxime-se e interaja para
 | **Missões** | Menu de missões e contratos |
 | **Trails** | Menu de rastros visuais |
 | **Mudar de Raça** | Menu para trocar sua origem/raça |
+| **Guia** | Orientação para começar; indica o quadro de Missões e o primeiro contrato |
 
-Os nomes refletem o cadastro atual do Citizens; serviços e aparência podem mudar com atualizações do Spawn.
+Os nomes refletem o cadastro atual do Spawn; serviços e aparência podem mudar com atualizações.
 
 ### Bússola de Explorador 🧭
 
@@ -272,7 +288,7 @@ Localiza estruturas do mundo. Botão direito vai para o **próximo** alvo; botã
 └───┴───┴───┘
 ```
 
-**Alvos (9):** Vila, Cidade Antiga, Câmaras de Prova, Pirâmide do Deserto, Mansão, Cabana da Bruxa, Posto de Saqueador, Fortaleza e Cavernas Grandes. A receita é aprendida automaticamente.
+**Alvos (16):** Vila, Vila Medieval, Cidade Antiga, Câmaras de Prova, Pirâmide do Deserto, Mansão, Cabana da Bruxa, Posto de Saqueador, Fortaleza, Monumento Oceânico, Cripta, Mina, Fortaleza do Nether, Bastião, Cidade do End e Castelo do End. Alguns alvos só podem ser procurados na dimensão correspondente. A receita é aprendida automaticamente.
 
 ---
 
@@ -281,65 +297,64 @@ Localiza estruturas do mundo. Botão direito vai para o **próximo** alvo; botã
 Ao morrer, seus itens e **70% do XP** ficam num túmulo no local da morte, em vez de espalhados pelo chão.
 
 - O túmulo é uma **cabeça de jogador** com holograma do dono, tempo restante, causa da morte e proteção.
-- **Duração:** 3 horas. Depois, o conteúdo cai no chão.
+- **Duração:** 24 horas. Depois, o conteúdo cai no chão.
 - **Limite:** 18 túmulos por jogador.
 - **Local seguro:** se morrer no ar, na lava, no void ou dentro de um bloco, o túmulo vai para o último lugar seguro.
-- **Proteção:** nos primeiros **5 minutos**, só você e quem te matou podem abrir. Depois, qualquer um.
-- **Não explode** com TNT ou creepers. Pode ser quebrado com a mão; quem quebrar leva o conteúdo.
-- Ao renascer, você recebe uma **bússola** que aponta para o túmulo mais próximo por 5 minutos.
+- **Proteção:** nos primeiros **5 minutos**, só você e quem te matou podem abrir; depois, qualquer pessoa pode acessar. Explosões não destroem o túmulo.
+- Ao renascer, você recebe uma **bússola** que aponta para seu túmulo por 5 minutos.
 - **`/graves`** lista seus túmulos.
-- O túmulo guarda um **livro** com nome, causa da morte, data, itens, XP e coordenadas. O layout do inventário e a armadura são preservados.
+- O inventário é preservado na ordem original. O túmulo armazena **70% do XP** que você tinha ao morrer.
 - Se o túmulo não puder ser criado, você mantém o inventário.
 
 ---
 
 ## ⚔️ Combate e PvP
 
+- **Raça no nametag** — sua raça aparece na linha abaixo do seu nome, junto à vida. Ela não aparece mais como prefixo na lista de jogadores.
+- **Níveis dos mobs** — o nível acompanha o nível de jornada do jogador próximo, varia em até 2 níveis e aumenta em 1 por anel de 750 blocos após os primeiros 250 blocos do ponto de spawn da dimensão. O limite é nível 60. Ao mirar, acompanhar ou atacar um mob, o nametag mostra nível, nome e vida atual/máxima; animais passivos mostram essas informações quando são atacados.
 - **Dragão do End escalado** 🐉 — vida, dano e resistência crescem com o número de jogadores. Ele usa raios, sopro e bolas de fogo, e as recompensas são divididas pelo dano causado. **Cristais do End explodem com mais força e causam fogo**.
-- **PvP opt-in** — começa **desligado**. Use **`/pvp`** para ligar ou desligar. Sem PvP, você não dá nem recebe dano de jogadores (leva knockback), e animais domados, fogo/lava próximos e efeitos hostis também são protegidos. Após entrar em combate, são **30s** para poder alternar. Sair do jogo durante o combate não mata seu personagem.
+- **PvP opt-in** — começa **desligado**. Use o NPC **PvP** no Spawn para ligar ou desligar. Sem PvP, você não dá nem recebe dano de jogadores (leva knockback), e animais domados, fogo/lava próximos e efeitos hostis também são protegidos. Após entrar em combate, são **30s** para poder alternar. Sair do jogo durante o combate não mata seu personagem.
 - **Ovos de spawn** — 2% de chance ao derrotar um mob, inclusive os de spawners.
-- **Recompensas por trim** — conjuntos completos com o mesmo padrão dão efeitos passivos (2, 3 e 4 peças; set completo vira “Ascended”). Misturar padrões pode gerar penalidades.
+- **Efeitos de adornos** — usar quatro peças de armadura com o mesmo padrão de trim concede um efeito passivo associado ao padrão. Exemplos: velocidade, pressa, visão noturna, resistência ao fogo e regeneração.
 - **Cabeças de mobs** — chance de cair ao derrotar; Looting aumenta a chance. Também dá para fazer mini-blocos na pedra de corte ou comprar do vendedor ambulante.
 
 ---
 
 ## 🌍 O mundo
 
-### Mundo Terraformado
+### Terreno e exploração
 
-O mundo principal usa geração personalizada de terreno, biomas, rios, montanhas, cavernas e estruturas próprias.
+A geração mantém a progressão de sobrevivência familiar, com mais detalhes naturais nos biomas e terrenos diferentes entre as dimensões. O Nether tem áreas mais amplas e rotas de viagem variadas; o End ganha ilhas e formações mais dramáticas.
 
-- **40+ biomas**, incluindo montanhas pintadas, savanas fragmentadas, florestas escarlates, cerejeiras, taigas, manguezais e vários oceanos.
-- **Estruturas próprias:** vilas, postos de saqueador, pirâmides, monumentos oceânicos, mansões, fortes, cidades antigas, câmaras de prova, catacumbas, minas, ruínas, naufrágios, iglus, poços do deserto e acampamentos abandonados.
-- **Cavernas especiais:** grandes, exuberantes (lush) e de cogumelos.
+- Há muitas estruturas adicionais ou reformuladas para descobrir: vilas, tavernas, ruínas, masmorras, fortalezas, minas, portais, monumentos e assentamentos no oceano.
+- A geração de biomas acrescenta detalhes como árvores caídas, clareiras, rochas e vegetação, sem substituir a identidade dos biomas conhecidos. Algumas vilas e masmorras oferecem mapas que ajudam a localizar outros pontos de interesse.
 
 ### Datapacks de aventura e construção
 
-- **A Jornada do Herói (Hero's Journey):** uma coleção de 16 Olhos especiais escondidos pelo mundo, cada um ligado a uma exploração ou desafio — templos, postos, mansões, cidades antigas, monumentos, abelhas, pesca, encantamento e chefes. Procure os avanços com o tema **Gateway / A Jornada do Herói** para acompanhar pistas e descobertas. Reunir todos completa o avanço **Monomito**. É conteúdo extra de exploração; não substitui a progressão de níveis do servidor.
+- **A Jornada do Herói (Hero's Journey):** uma coleção de **16 Olhos especiais** ligados a exploração e desafios. As pistas aparecem nos avanços com o tema **Gateway / A Jornada do Herói**. É preciso encontrar 12 olhos diferentes para abrir o portal do End; reunir os 16 completa o avanço **Monomito**. É conteúdo extra de exploração; não substitui a progressão de níveis do servidor.
 - **Ferramentas de Construção do Jake (Jake's Build Tools):** adiciona ferramentas utilitárias para construção, como cinzel, chave de blocos, martelo, colher de pedreiro (trowel), fita métrica, escada de corda, magneto de itens, bolsa de mobs e frasco de experiência, além de itens especiais como balde e pacote do vazio. Cada ferramenta tem regras próprias; confira sua descrição e o avanço/receita correspondente antes de usar. O livro **Owner's Manual** reúne orientação do datapack.
-- O mundo também inclui datapacks de estruturas e geração, como Dungeons and Taverns e complementos, Nullscape, Nightosphere, Hopo e Tidal Towns. Eles ampliam a variedade de ruínas, masmorras, vilas e locais para explorar.
+- A geração personalizada acrescenta estruturas, masmorras, minas, ruínas e povoados em diferentes biomas e dimensões. Esses conteúdos aparecem naturalmente durante a exploração e não precisam ser instalados pelo jogador.
 
 ### Dimensões
 
-| Dimensão | Abre no nível |
+| Dimensão | Acesso |
 |---|---|
-| 🌋 Nether | 10 |
-| 🔮 End | 30 — Cidades do End e elytras |
-| 🌀 Sift *(em breve)* | 60 |
+| 🌋 Nether | Nível 15 |
+| 🔮 End | Nível 30 — explore as Cidades do End e seus cofres |
 
-O portal avisa o nível necessário.
+O portal avisa o nível necessário. O End também usa o desafio de exploração dos Olhos especiais.
 
 ### Mapa e conexão
 
 - **Mapa 3D no navegador:** `http://<ip-do-servidor>:8100`.
-- **Voxy:** clientes com o mod recebem terreno distante do servidor (até 512 chunks no Overworld e no End, 64 no Nether).
+- **Terreno distante:** clientes compatíveis podem visualizar terreno além da distância normal; o alcance configurado chega a 512 chunks no Overworld e no End e 64 no Nether.
 
 ### Tesouros e recompensas do mundo
 
-- **Baús de tesouro** surgem perto de jogadores ativos a cada **15–30 minutos**, entre 12 e 30 blocos. Cada jogador tem **1 por vez**, e o baú dura **5 minutos**.
-- São **4 raridades** (Comum, Rara, Lendária e Mítica) e os primeiros **60 segundos** são só seus.
-- **10% são mimics:** alguns entregam o loot, outros se disfarçam de raridade melhor. Vencer um mimic dobra o loot e dá **40 XP**; se ele fugir em 60s, você perde o restante. O loot sai aos poucos conforme você causa dano.
-- **Recompensas de pesca:** ao pescar, há chance de um baú-recompensa com animação, do comum ao **Leviatã**, com itens, XP e surpresas.
+- **Baús de tesouro** aparecem para jogadores ativos a cada **20–40 minutos**, a 16–40 blocos de distância. Cada jogador pode ter **1 por vez**; o baú desaparece após **10 minutos**.
+- O baú fica reservado para você por **30 segundos**. Depois, qualquer pessoa pode abri-lo. Abrir e fechar o baú consome a recompensa, então confira o conteúdo antes de sair.
+- Há **quatro raridades**: comum, rara, lendária e mítica. A chance de um baú ser um mimic depende da raridade e é maior nos míticos. Derrotá-lo pode render o dobro do saque e **50 XP**; alguns são amistosos, enquanto outros lutam ou tentam fugir. Parte das recompensas é liberada durante o combate.
+- **Recompensas de pesca:** ao pescar, há chance de receber um baú-recompensa animado com itens e outras surpresas.
 - **Cofres das Cidades do End** garantem elytra para mais de um jogador.
 
 ---
@@ -348,28 +363,20 @@ O portal avisa o nível necessário.
 
 ### 🌱 Agricultura
 
-- Colher plantações maduras dá XP; plantações continuam crescendo **offline**.
-- Pisotear terra arada **não destrói** mais a plantação.
-- **Farinha de osso** acelera **cacto**, **nether wart** e **cana-de-açúcar**.
-- **Enxadas replantam** a cultura na hora da colheita.
-- No **composter**, agache e clique com o direito para processar **tudo de uma vez**.
-- Receitas veganas permitem craftar couro, penas, slime, canas de blaze, pólvora e mais sem matar mobs passivos.
+- Colher plantações maduras concede XP.
+- Plantações continuam avançando enquanto você está offline; animais de criação também podem amadurecer nesse período e a lã das ovelhas volta a crescer.
+- Receitas alternativas permitem obter muitos drops de mobs sem precisar derrotá-los, como couro, penas, slime, canas de blaze, pólvora e itens de criaturas hostis.
+- Há receitas adicionais para aproveitar melhor materiais de construção, incluindo blocos e itens de Nether.
 
 ### 🛠️ Equipamentos e encantamentos
 
 - **Bigornas sem “Muito Caro!”** — o limite de 40 níveis não existe; o custo real de XP é exibido e cobrado.
-- **Cores em bigornas e placas** — use `&`, hex (`#55ffff`) e gradientes (`<gradient:red:gold>`) ao renomear ou escrever.
-- **Pedra de amolar** remove a Maldição do Vínculo e a Maldição do Desaparecimento.
+- **Nomes coloridos na bigorna** — use códigos de cor compatíveis ao renomear um item.
 - **Recuperação de Encantamentos** — permite **guardar encantamentos de itens em livros** usando a pedra de amolar.
-- **Arco Infinito** dispara mesmo sem flechas no inventário.
-- **Totem da Imortalidade** funciona de qualquer slot do inventário.
-- **Tesouras** têm 50% de chance de desarmar TNT acesa; correr com tesouras não machuca.
-- **Spawners** podem ser minerados com Toque Suave usando picareta de ferro ou melhor.
-- **Encantamento Escavador** — picaretas com ele abrem um túnel de minérios e pedra em uma ação.
 
 ### ♻️ Reciclagem
 
-- **Agache e clique com o direito numa mesa de ferraria** para abrir o Recycler.
+- **Agache e clique com o direito numa mesa de ferraria** para abrir o reciclador.
 - Coloque uma **ferramenta, arma ou armadura** e clique em **Reciclar Item**: você recebe de **40% a 80%** dos materiais de crafting, sorteados a cada reciclagem.
 - Funciona com itens **encantados, danificados ou renomeados**. Itens com **modelo customizado** são bloqueados.
 - Itens sem receita de crafting têm retorno próprio: **netherita** → sucata de netherita + diamante, **malha** → ferro, **tridente** → fragmento de prismarinho, **elytra** → membrana de phantom.
@@ -378,33 +385,34 @@ O portal avisa o nível necessário.
 ### 🔥 Blocos e utilidades
 
 - **Forno em cima de lava** funciona sem combustível — a fonte de lava embaixo é consumida.
-- **Redstone desliga spawners.**
 - **Creepers não destroem mais blocos** — a explosão continua machucando jogadores e mobs, mas não abre crateras nem apaga construções.
 - **Pedra de corte** machuca quem pisa nela: **1 coração** por passo.
-- **Mesa de encantamentos** mantém o lápis-lazúli entre usos e devolve o que sobrou se a mesa for quebrada.
 - **Beacons** funcionam através de vidro tingido.
-- **Baú do End (ender chest)** tem **6 fileiras**.
 - É possível colocar **água no End** com baldes.
-- **Lava e água infinitas** com apenas 2 fontes.
-- **Mineração em cadeia** — agache e quebre com a ferramenta certa para derrubar a veia inteira (picareta→minério, machado→madeira, pá→terra, enxada→planta).
-- **Pedreira expandida** — mais de 500 receitas: cortes de madeira, pedra, reciclagem e “un-crafting”.
+- **Mineração em cadeia** — agache e quebre com a ferramenta certa para minerar blocos conectados compatíveis. O desgaste da ferramenta acompanha os blocos quebrados.
+- **Cortes e receitas expandidos** — a pedra de corte aceita muitas receitas adicionais para trabalhar madeira, pedra e outros materiais com menos desperdício.
 - **Luz dinâmica** — tochas e lanternas na mão iluminam ao redor.
+- **Localizador de slime chunks** — use uma bola de slime: clique com o direito para alternar a visualização dos chunks de slime no mundo ou agache e clique com o direito para abrir o mapa.
 - **Fogueiras curam** lentamente num raio de 3 blocos.
-- **Decaimento de folhas** — ao cortar uma árvore, as folhas somem em segundos, com drops.
+- **Decaimento de folhas** — folhas sem tronco próximo desaparecem mais rápido e ainda podem deixar seus drops.
 - **Votação de sono** — deitar na cama inicia uma votação com bossbar; metade dos jogadores pula a noite. Tempestades também podem ser puladas.
-- **Hologramas de itens** em baús, fornos e barris; ative ou desative com **`/iv`**.
-- **Bússola na mão** mostra uma bossbar com a direção.
-- **Bolas de neve** apagam fogo, velas e fogueiras.
+- **Interações visíveis** — animações mostram itens e processos em várias bancadas e blocos funcionais, como crafting, fornos e encantamentos.
 - **Mobs que pegaram itens** voltam a despawnar normalmente.
-- **Aldeões** seguem você quando segura um bloco de esmeralda; trocas podem ser **rerroladas** na tela de troca.
-- **Cavalgar golfinhos** e **dirigir carrinhos** com W/A/S/D (o carrinho sobe degraus de 1 bloco). Entre os mobs montáveis, filhotes e animais ainda não domados também podem ser montados.
-- **O dia dura mais** e as noites passam mais rápido; a barra de ar debaixo d'água é maior.
-- **Vindicators Johnny** — 5% perseguem o jogador continuamente 🪓.
-- **Mensagens de morte exclusivas**, como escorregar nas próprias tesouras ou se serrar ao meio.
-- **Comer até encher** causa um arroto 🫧.
-- **Poses e emotes** — sentar, deitar, rastejar, abraçar, acenar e mais. Skins personalizadas e sprays de imagens também estão disponíveis.
+- **Trocas de aldeões** podem ser rerroladas na própria tela de troca.
+
+- **Poses e interações sociais** — sente-se, deite-se ou rasteje, e use emotes para interagir com outras pessoas. Também há skins, capas, rastros visuais e sprays personalizados.
 
 ---
+
+## 💬 Chat, guildas e interface
+
+- O chat público mostra seu nível e, quando você pertence a uma guilda, sua tag ao lado do nome. Mensagens privadas e conversas de guilda continuam disponíveis pelos menus e recursos sociais.
+- A opção de PvP aparece na lista de jogadores e no placar. Os nametags acima dos jogadores mostram nível, tag da guilda e estado do PvP; abaixo do nome aparecem sua raça e vida.
+- A lista de jogadores mostra o nível e a dimensão; o placar alterna entre visão geral, profissões e combate. A visão geral inclui progresso de nível, poder total do mcMMO, saldo, guilda, tempo jogado e PvP.
+- O NPC **Guildas** dá acesso à administração da equipe. Guildas podem ter cargos, permissões, chat, banco, baú compartilhado (que pode aumentar de tamanho com melhorias), alianças, missões e evolução; os recursos disponíveis aparecem nos menus.
+- **Aparência pessoal:** skins, capas, rastros de partículas e sprays decorativos. Alguns efeitos gráficos podem variar entre clientes Java e Bedrock.
+- **Exibição de itens:** agache e interaja com um quadro de item colocado na face superior de um bloco para deixar o item flutuando como decoração. Clique no item exibido para removê-lo.
+- O canal público de HelpOP está desativado.
 
 ## 🧾 Comandos essenciais
 
@@ -414,8 +422,7 @@ O portal avisa o nível necessário.
 | `/fishing` | progresso da habilidade (ou `/mining`, `/swords`…) |
 | `/c` | proteção de bases |
 | `/graves` | seus túmulos e teleporte |
-| `/sb` | scoreboard liga/desliga |
-| `/help` | lista completa de comandos |
+| `/sb` | alterna o placar |
 
 ---
 
@@ -423,11 +430,16 @@ O portal avisa o nível necessário.
 
 ### 3 de novembro de 2026
 
-- Atualização da documentação da mochila para o plugin ExpendableBackpacks, incluindo a receita inicial, materiais de cada melhoria, mochila de Terra, Enderpack e armazenamento compartilhado das cópias.
-- Inclusão das missões diárias, semanais e marcos globais, com os limites atuais por dificuldade e ciclo.
-- Inclusão dos datapacks A Jornada do Herói e Ferramentas de Construção do Jake e de orientações sobre como acompanhar seus recursos no jogo.
-- Documentação dos NPCs disponíveis no Spawn e direcionamento dos serviços de loja, vendas, mercado entre jogadores, missões e cosméticos aos NPCs correspondentes.
-- Registro de ajustes recentes de economia, XP de pesca do mcMMO e XP de jornada por colocação de blocos.
+- Corrigidos os limites documentados de proteção de bases: agora são 32 chunks, com energia inicial de 24 horas e consumo ajustado ao tamanho da área.
+- Atualizados os dados dos túmulos: duração de 24 horas, armazenamento de 70% do XP, limite de 18 por jogador e proteção inicial de cinco minutos.
+- Corrigidos os níveis de acesso às dimensões: Nether no nível 15 e End no nível 30.
+- Atualizada a bússola de explorador com os 16 alvos atualmente definidos, incluindo vilas, minas, ruínas, fortalezas e destinos do Nether e do End.
+- Revisados os baús de tesouro: frequência, distância, duração, reserva inicial, chance de mimic e recompensas conforme as configurações atuais.
+- Incluído o NPC Guia e detalhados os recursos atuais de chat, guildas, nametags, lista de jogadores e placar.
+- Documentados a Pedra do Regresso, o localizador de chunks de slime e as aparições misteriosas em áreas selvagens.
+- Atualizada a documentação das melhorias de geração, receitas, agricultura, decoração e personalização.
+- Corrigidas informações desatualizadas sobre efeitos de armadura e entrega de mochila inicial; removidos recursos que não constam mais nas configurações atuais.
+- Registrados ajustes recentes de economia, XP de pesca do mcMMO e XP de jornada por colocação de blocos.
 
 ### 2 de novembro de 2026
 
