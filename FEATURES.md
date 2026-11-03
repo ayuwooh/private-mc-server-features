@@ -140,11 +140,66 @@ Cada conquista rende XP automaticamente, uma única vez por jogador:
 
 ### Mochilas 🎒
 
-O servidor usa o plugin **ExpendableBackpacks**, com mochilas de diferentes categorias e capacidades. Use **`/backpack`** (ou `/bp`) para abrir o guia de criação dentro do jogo e consultar as receitas disponíveis. Segure a mochila e clique com o botão direito para abrir.
+O servidor usa o plugin **ExpendableBackpacks**. Mochilas não são entregues automaticamente ao entrar. Segure uma mochila e clique com o botão direito para abrir. As melhorias preservam os itens guardados.
 
-- Mochilas não são entregues automaticamente ao entrar; obtenha uma pela receita mostrada no guia.
-- Mochilas não podem ser guardadas dentro de outras mochilas.
-- O plugin oferece categorias progressivas e melhoria de mochilas; confira os materiais e a compatibilidade no menu de criação antes de combinar itens.
+#### Mochila inicial: Couro
+
+Faça na bancada de trabalho:
+
+```text
+┌───┬───┬───┐
+│ C │ F │ C │     C = Couro
+├───┼───┼───┤     F = Fio
+│ C │ B │ C │     B = Baú
+├───┼───┼───┤
+│ C │ C │ C │
+└───┴───┴───┘
+```
+
+#### Melhorias
+
+Para cada melhoria até Diamante, coloque a mochila atual no centro da bancada e cerque-a com **8 materiais** do próximo nível:
+
+```text
+┌───┬───┬───┐
+│ M │ M │ M │     M = material da melhoria
+├───┼───┼───┤     B = mochila atual
+│ M │ B │ M │
+├───┼───┼───┤
+│ M │ M │ M │
+└───┴───┴───┘
+```
+
+| Mochila atual | Próxima mochila | Material (8 unidades) |
+|---|---|---|
+| Couro | Cobre | Lingote de cobre |
+| Cobre | Ferro | Lingote de ferro |
+| Ferro | Ouro | Lingote de ouro |
+| Ouro | Diamante | Diamante |
+
+Para a melhoria final, use a **mesa de ferraria**: Mochila de Diamante + **molde de melhoria de netherita** + **lingote de netherita** → Mochila de Netherita.
+
+#### Mochila de Terra
+
+É uma alternativa menor, criada ao cercar uma Mochila de Couro com **8 blocos de terra** na bancada. Essa receita é uma redução de nível, não faz parte da sequência de melhorias.
+
+#### Enderpack
+
+A Enderpack é uma mochila especial, criada na bancada:
+
+```text
+┌───┬───┬───┐
+│ O │ P │ O │     O = Olho do Ender
+├───┼───┼───┤     P = Pérola do Ender
+│ P │ B │ P │     B = Baú
+├───┼───┼───┤     I = Bloco de ferro
+│ O │ I │ O │
+└───┴───┴───┘
+```
+
+Também é possível colocar **1 Enderpack + 1 Pérola do Ender** em qualquer espaço da bancada para receber **2 Enderpacks com o mesmo armazenamento compartilhado**. Guarde isso em mente: são dois acessos ao mesmo inventário, não duas cópias dos itens.
+
+Mochilas não podem ser colocadas dentro de outras mochilas. **`/backpack`** (ou **`/bp`**) abre o guia visual do plugin dentro do jogo.
 
 ### Waystones 🪨
 
@@ -371,7 +426,7 @@ O portal avisa o nível necessário.
 
 ### 3 de novembro de 2026
 
-- Atualização da documentação da mochila para o plugin ExpendableBackpacks, com acesso às receitas por `/backpack` e informação correta sobre a ausência de mochila inicial automática.
+- Atualização da documentação da mochila para o plugin ExpendableBackpacks, incluindo a receita inicial, materiais de cada melhoria, mochila de Terra, Enderpack e armazenamento compartilhado das cópias.
 - Inclusão das missões diárias, semanais e marcos globais, com os limites atuais por dificuldade e ciclo.
 - Inclusão dos datapacks A Jornada do Herói e Ferramentas de Construção do Jake e de orientações sobre como acompanhar seus recursos no jogo.
 - Documentação dos NPCs disponíveis no Spawn e direcionamento dos serviços de loja, vendas, mercado entre jogadores, missões e cosméticos aos NPCs correspondentes.
