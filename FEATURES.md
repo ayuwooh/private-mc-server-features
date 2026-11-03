@@ -199,7 +199,7 @@ A Enderpack é uma mochila especial, criada na bancada:
 
 Também é possível colocar **1 Enderpack + 1 Pérola do Ender** em qualquer espaço da bancada para receber **2 Enderpacks com o mesmo armazenamento compartilhado**. Guarde isso em mente: são dois acessos ao mesmo inventário, não duas cópias dos itens.
 
-Mochilas não podem ser colocadas dentro de outras mochilas. **`/backpack`** (ou **`/bp`**) abre o guia visual do plugin dentro do jogo.
+Mochilas não podem ser colocadas dentro de outras mochilas.
 
 ### Waystones 🪨
 
@@ -255,8 +255,6 @@ Os NPCs abaixo estão cadastrados no mundo do Spawn. Aproxime-se e interaja para
 | **Missões** | Menu de missões e contratos |
 | **Trails** | Menu de rastros visuais |
 | **Mudar de Raça** | Menu para trocar sua origem/raça |
-| **guard1** | Guarda decorativo, sem ação configurada |
-| **cat** | Gato decorativo, sem ação configurada |
 
 Os nomes refletem o cadastro atual do Citizens; serviços e aparência podem mudar com atualizações do Spawn.
 
@@ -416,7 +414,6 @@ O portal avisa o nível necessário.
 | `/fishing` | progresso da habilidade (ou `/mining`, `/swords`…) |
 | `/c` | proteção de bases |
 | `/graves` | seus túmulos e teleporte |
-| `/backpack` ou `/bp` | abre o guia de criação de mochilas |
 | `/sb` | scoreboard liga/desliga |
 | `/help` | lista completa de comandos |
 
